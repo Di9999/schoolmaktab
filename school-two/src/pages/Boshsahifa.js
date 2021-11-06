@@ -94,7 +94,7 @@ export default class Boshsahifa extends Component {
           </Row>
         </Container>
 
-        <div className={style.cards}>
+        <div className={style.cardinfo}>
           <Row>
             <Col lg={12}>
               <h1 className={style.sarlavha}>Biz haqimizda</h1>
@@ -105,11 +105,11 @@ export default class Boshsahifa extends Component {
               <div>
                 <img />
                 <div
-                  style={{
-                    backgroundColor: "#801085",
-                    padding: "10%",
-                    height: "470px",
-                  }}
+                // style={{
+                //   backgroundColor: "#801085",
+                //   padding: "10%",
+                //   height: "470px",
+                // }}
                 >
                   <h1>Maktab oshxonasi</h1>
                   <p>
@@ -126,11 +126,11 @@ export default class Boshsahifa extends Component {
               <div>
                 <img />
                 <div
-                  style={{
-                    backgroundColor: "#801085",
-                    padding: "10%",
-                    height: "470px",
-                  }}
+                // style={{
+                //   backgroundColor: "#801085",
+                //   padding: "10%",
+                //   height: "470px",
+                // }}
                 >
                   <h1>Sport mashg'ulotlari</h1>
                   <p>
@@ -153,11 +153,11 @@ export default class Boshsahifa extends Component {
               <div>
                 <img />
                 <div
-                  style={{
-                    backgroundColor: "#801085",
-                    padding: "10%",
-                    height: "470px",
-                  }}
+                // style={{
+                //   backgroundColor: "#801085",
+                //   padding: "10%",
+                //   height: "470px",
+                // }}
                 >
                   <h1>San'at va madaniyat</h1>
                   <p>
@@ -174,12 +174,11 @@ export default class Boshsahifa extends Component {
               <div>
                 <img />
                 <div
-                  style={{
-                    backgroundColor: "#801085",
-
-                    padding: "10%",
-                    height: "470px",
-                  }}
+                // style={{
+                //   backgroundColor: "#801085",
+                //   padding: "10%",
+                //   height: "470px",
+                // }}
                 >
                   <h1>Axborot texnologiyalari</h1>
                   <p>
@@ -196,12 +195,11 @@ export default class Boshsahifa extends Component {
               <div>
                 <img />
                 <div
-                  style={{
-                    backgroundColor: "#801085",
-
-                    padding: "10%",
-                    height: "470px",
-                  }}
+                // style={{
+                //   backgroundColor: "#801085",
+                //   padding: "10%",
+                //   height: "470px",
+                // }}
                 >
                   <h1>Xavfsizlik va qo'riqlash</h1>
                   <p>
@@ -224,12 +222,11 @@ export default class Boshsahifa extends Component {
               <div>
                 <img />
                 <div
-                  style={{
-                    backgroundColor: "#801085",
-
-                    padding: "10%",
-                    height: "470px",
-                  }}
+                // style={{
+                //   backgroundColor: "#801085",
+                //   padding: "10%",
+                //   height: "470px",
+                // }}
                 >
                   <h1>Sog'lik va salomatlik</h1>
                   <p>
