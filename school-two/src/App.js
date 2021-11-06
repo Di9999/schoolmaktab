@@ -1,13 +1,10 @@
+import React from "react";
+import Boshsahifa from "./pages/Boshsahifa";
 
-import BoshSahifa from './pages/Boshsahifa';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <BoshSahifa/>
-   
+    <div>
+      <Boshsahifa />
     </div>
   );
 }
-
-export default App;

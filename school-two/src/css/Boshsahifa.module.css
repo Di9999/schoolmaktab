@@ -1,0 +1,23 @@
+.qabul {
+  background-color: aqua;
+  width: 500px;
+}
+.qabulImg {
+  width: 200px;
+}
+.orange {
+  background-color: orangered;
+  width: 50%;
+  height: 450px;
+
+  margin-left: 10%;
+  color: white;
+}
+.orangeText {
+  font-size: 20px;
+  width: 60%;
+  margin-left: 5%;
+}
+.orangeText h2 {
+  padding-top: 5%;
+}
