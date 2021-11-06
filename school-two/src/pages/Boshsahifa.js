@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import style from "../css/Boshsahifa.module.css";
 import { Col, Container, Card, Row, Image } from "react-bootstrap";
 import registr from "../img/registr.jpg";
+import Navbar from "./Navbar";
 export default class Boshsahifa extends Component {
   render() {
     return (
@@ -92,6 +93,157 @@ export default class Boshsahifa extends Component {
             </div>
           </Row>
         </Container>
+
+        <div className={style.cards}>
+          <Row>
+            <Col lg={12}>
+              <h1 className={style.sarlavha}>Biz haqimizda</h1>
+              <br />
+              <br />
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
+              <div>
+                <img />
+                <div
+                  style={{
+                    backgroundColor: "#801085",
+                    padding: "10%",
+                    height: "470px",
+                  }}
+                >
+                  <h1>Maktab oshxonasi</h1>
+                  <p>
+                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
+                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
+                    gigiyena qoidalariga rioya qilingan va mahoratli
+                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
+                    bilan boyitilgan oshxonani taqdim etamiz.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
+              <div>
+                <img />
+                <div
+                  style={{
+                    backgroundColor: "#801085",
+                    padding: "10%",
+                    height: "470px",
+                  }}
+                >
+                  <h1>Sport mashg'ulotlari</h1>
+                  <p>
+                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
+                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
+                    gigiyena qoidalariga rioya qilingan va mahoratli
+                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
+                    bilan boyitilgan oshxonani taqdim etamiz.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col
+              lg={4}
+              md={6}
+              sm={12}
+              className={style.cardBolimlar}
+              style={{ marginRight: "0%" }}
+            >
+              <div>
+                <img />
+                <div
+                  style={{
+                    backgroundColor: "#801085",
+                    padding: "10%",
+                    height: "470px",
+                  }}
+                >
+                  <h1>San'at va madaniyat</h1>
+                  <p>
+                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
+                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
+                    gigiyena qoidalariga rioya qilingan va mahoratli
+                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
+                    bilan boyitilgan oshxonani taqdim etamiz.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
+              <div>
+                <img />
+                <div
+                  style={{
+                    backgroundColor: "#801085",
+
+                    padding: "10%",
+                    height: "470px",
+                  }}
+                >
+                  <h1>Axborot texnologiyalari</h1>
+                  <p>
+                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
+                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
+                    gigiyena qoidalariga rioya qilingan va mahoratli
+                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
+                    bilan boyitilgan oshxonani taqdim etamiz.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
+              <div>
+                <img />
+                <div
+                  style={{
+                    backgroundColor: "#801085",
+
+                    padding: "10%",
+                    height: "470px",
+                  }}
+                >
+                  <h1>Xavfsizlik va qo'riqlash</h1>
+                  <p>
+                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
+                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
+                    gigiyena qoidalariga rioya qilingan va mahoratli
+                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
+                    bilan boyitilgan oshxonani taqdim etamiz.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col
+              lg={4}
+              md={6}
+              sm={12}
+              className={style.cardBolimlar}
+              style={{ marginRight: "0%" }}
+            >
+              <div>
+                <img />
+                <div
+                  style={{
+                    backgroundColor: "#801085",
+
+                    padding: "10%",
+                    height: "470px",
+                  }}
+                >
+                  <h1>Sog'lik va salomatlik</h1>
+                  <p>
+                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
+                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
+                    gigiyena qoidalariga rioya qilingan va mahoratli
+                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
+                    bilan boyitilgan oshxonani taqdim etamiz.
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
     );
   }
