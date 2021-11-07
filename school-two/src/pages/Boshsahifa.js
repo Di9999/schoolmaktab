@@ -11,6 +11,8 @@ import sport from "../img/sport2.jpeg";
 import musiqa from "../img/musiqa2.jpg";
 import inform from "../img/inform2.jpeg";
 import oxrana from "../img/oxrana1.jpg";
+import avtobus from "../img/avtobus.jpg";
+import prezident from "../img/prezident.jpg";
 import med from "../img/med1.jpg";
 
 export default class Boshsahifa extends Component {
@@ -101,59 +103,30 @@ export default class Boshsahifa extends Component {
             </div>
           </Row>
         </Container>
-        <Container>
-          <Row className={`${style.avtobus} `}>
-            <div>
-              <Col md={6} lg={6}>
-                <div className={style.avtobusimage}>
-                  <Image style={{ width: "100%" }} src={registr} />
-                </div>
-              </Col>
-
-              <Col xs={12} sm={12} md={6} lg={6}>
-                <div className={style.avtobustext}>
-                  <h3>Transport xizmati</h3>
-                  <p>
-                    Maktabimizda bolalarni maktabga yetkazib kelish uchun
-                    shaxsiy transport vositasi yo'q. Lekin shunga qaramay
-                    maktabimiz avtomobillar yo'liga yaqin joylashgani va maktab
-                    yaqinida avtobus bekati borligi, o'quvchilarning
-                    maktabimizga yetib kelishlarini anchagina osonlashtirib
-                    beradi. Maktabimiz atrofidagi avtomobil yo'llariga avtomobil
-                    harakatini sekinlashtiruvchi yo'l belgilari va bolalarni
-                    yo'lda o'tishi uchun piyodalar yo'lakchasi mavjudligi,
-                    bolalarimizni sodir bo'lishi mumkin bo'lgan ko'plab
-                    avtohalokatlardan asraydi.
-                  </p>
-                </div>
-              </Col>
+        <br />
+        <br />
+        <Col>
+          <div className={style.prezident}>
+            <div className={style.prezidenttext}>
+              {" "}
+              <h2>
+                Maktab bu hayot-mamot masalasi, kelajak masalasi. Uni davlat,
+                hukumat va hokimlarning o‘zi hal qilolmaydi. Bu butun
+                jamiyatning ishi, burchiga aylanishi kerak
+              </h2>
+              <h3>Shavkat Mirziyoyev</h3>
             </div>
-          </Row>
-        </Container>
-        {/* <Container>
-          <Row className={`${style.prezident} `}>
-            <div>
-              <Col md={6} lg={6}>
-                <div className={style.prezidentimage}>
-                  <Image style={{ width: "100%" }} src={registr} />
-                </div>
-              </Col>
-
-              <Col xs={12} sm={12} md={6} lg={6}>
-                <div className={style.prezidenttext}>
-                  <h3>
-                    Maktab bu hayot-mamot masalasi, kelajak masalasi. Uni
-                    davlat, hukumat va hokimlarning o‘zi hal qilolmaydi. Bu
-                    butun jamiyatning ishi, burchiga aylanishi kerak
-                  </h3>
-                  <h4>Shavkat Mirziyoyev</h4>
-                </div>
-              </Col>
+            <div className={style.prezidentimg}>
+              <Image src={prezident} className={style.secondImage} />
             </div>
-          </Row>
-        </Container> */}
+          </div>
+        </Col>
+        <br /> <br />
         <Col>
           <div className={style.avtobus}>
+            <div className={style.avtobusimg}>
+              <Image src={avtobus} className={style.secondImage} />
+            </div>
             <div className={style.avtobustext}>
               {" "}
               <h1>Transport xizmati</h1>
@@ -166,13 +139,6 @@ export default class Boshsahifa extends Component {
                 paradizmatik. Bu jumlaning qovurilgan qismlari uchib ketadigan
                 jannat matikasi mamlakati.
               </p>
-            </div>
-            <div className={style.avtobusimg}>
-              <Image
-                src={oshxona1}
-                className={style.secondImage}
-                data-aos="zoom-in-up"
-              />
             </div>
           </div>
         </Col>
