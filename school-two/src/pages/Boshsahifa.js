@@ -102,45 +102,30 @@ export default class Boshsahifa extends Component {
               <br />
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
-              <div>
+              <div className={style.cardnumb}>
                 <img />
-                <div
-                // style={{
-                //   backgroundColor: "#801085",
-                //   padding: "10%",
-                //   height: "470px",
-                // }}
-                >
-                  <h1>Maktab oshxonasi</h1>
-                  <p>
-                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
-                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
-                    gigiyena qoidalariga rioya qilingan va mahoratli
-                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
-                    bilan boyitilgan oshxonani taqdim etamiz.
-                  </p>
-                </div>
+                <h1>Maktab oshxonasi</h1>
+                <p>
+                  Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
+                  o'quv yilida o'quvchilarimizga to'liq jihozlangan, gigiyena
+                  qoidalariga rioya qilingan va mahoratli oshpazlarimiz
+                  tomonidan pishirilgan turli xil mazali taomlar bilan
+                  boyitilgan oshxonani taqdim etamiz.
+                </p>
               </div>
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
-              <div>
+              <div className={style.cardnumb}>
                 <img />
-                <div
-                // style={{
-                //   backgroundColor: "#801085",
-                //   padding: "10%",
-                //   height: "470px",
-                // }}
-                >
-                  <h1>Sport mashg'ulotlari</h1>
-                  <p>
-                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
-                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
-                    gigiyena qoidalariga rioya qilingan va mahoratli
-                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
-                    bilan boyitilgan oshxonani taqdim etamiz.
-                  </p>
-                </div>
+
+                <h1>Sport mashg'ulotlari</h1>
+                <p>
+                  Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
+                  o'quv yilida o'quvchilarimizga to'liq jihozlangan, gigiyena
+                  qoidalariga rioya qilingan va mahoratli oshpazlarimiz
+                  tomonidan pishirilgan turli xil mazali taomlar bilan
+                  boyitilgan oshxonani taqdim etamiz.
+                </p>
               </div>
             </Col>
             <Col
@@ -150,66 +135,43 @@ export default class Boshsahifa extends Component {
               className={style.cardBolimlar}
               style={{ marginRight: "0%" }}
             >
-              <div>
+              <div className={style.cardnumb}>
                 <img />
-                <div
-                // style={{
-                //   backgroundColor: "#801085",
-                //   padding: "10%",
-                //   height: "470px",
-                // }}
-                >
-                  <h1>San'at va madaniyat</h1>
-                  <p>
-                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
-                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
-                    gigiyena qoidalariga rioya qilingan va mahoratli
-                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
-                    bilan boyitilgan oshxonani taqdim etamiz.
-                  </p>
-                </div>
+                <h1>San'at va madaniyat</h1>
+                <p>
+                  Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
+                  o'quv yilida o'quvchilarimizga to'liq jihozlangan, gigiyena
+                  qoidalariga rioya qilingan va mahoratli oshpazlarimiz
+                  tomonidan pishirilgan turli xil mazali taomlar bilan
+                  boyitilgan oshxonani taqdim etamiz.
+                </p>
               </div>
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
-              <div>
+              <div className={style.cardnumb}>
                 <img />
-                <div
-                // style={{
-                //   backgroundColor: "#801085",
-                //   padding: "10%",
-                //   height: "470px",
-                // }}
-                >
-                  <h1>Axborot texnologiyalari</h1>
-                  <p>
-                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
-                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
-                    gigiyena qoidalariga rioya qilingan va mahoratli
-                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
-                    bilan boyitilgan oshxonani taqdim etamiz.
-                  </p>
-                </div>
+                <h1>Axborot texnologiyalari</h1>
+                <p>
+                  Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
+                  o'quv yilida o'quvchilarimizga to'liq jihozlangan, gigiyena
+                  qoidalariga rioya qilingan va mahoratli oshpazlarimiz
+                  tomonidan pishirilgan turli xil mazali taomlar bilan
+                  boyitilgan oshxonani taqdim etamiz.
+                </p>
               </div>
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
-              <div>
+              <div className={style.cardnumb}>
                 <img />
-                <div
-                // style={{
-                //   backgroundColor: "#801085",
-                //   padding: "10%",
-                //   height: "470px",
-                // }}
-                >
-                  <h1>Xavfsizlik va qo'riqlash</h1>
-                  <p>
-                    Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti.
-                    Yangi o'quv yilida o'quvchilarimizga to'liq jihozlangan,
-                    gigiyena qoidalariga rioya qilingan va mahoratli
-                    oshpazlarimiz tomonidan pishirilgan turli xil mazali taomlar
-                    bilan boyitilgan oshxonani taqdim etamiz.
-                  </p>
-                </div>
+
+                <h1>Xavfsizlik va qo'riqlash</h1>
+                <p>
+                  Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
+                  o'quv yilida o'quvchilarimizga to'liq jihozlangan, gigiyena
+                  qoidalariga rioya qilingan va mahoratli oshpazlarimiz
+                  tomonidan pishirilgan turli xil mazali taomlar bilan
+                  boyitilgan oshxonani taqdim etamiz.
+                </p>
               </div>
             </Col>
             <Col
@@ -219,7 +181,7 @@ export default class Boshsahifa extends Component {
               className={style.cardBolimlar}
               style={{ marginRight: "0%" }}
             >
-              <div>
+              <div className={style.cardnumb}>
                 <img />
                 <div
                 // style={{
