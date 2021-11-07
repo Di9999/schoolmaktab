@@ -79,3 +79,59 @@ body {
 .xarita {
   background-color: rgb(28, 10, 77);
 }
+.prezident,
+.avtobus {
+  width: 80%;
+  display: flex;
+  background-color: rgb(163, 20, 163);
+}
+.avtobusimage,
+.prezidentimage {
+  width: 200px;
+}
+/* .mashq {
+  width: 100%;
+  display: flex;
+  margin-left: 120px;
+}
+
+.mashq1 {
+  padding: 20px;
+
+  width: 50%;
+}
+.mashq1 img {
+  width: 100%;
+  height: 100%;
+}
+.mashq2 {
+  padding: 40px;
+  width: 50%;
+  font-size: 30px;
+} */
+/* .avtobus {
+  width: 100%;
+  display: flex;
+} */
+
+.avtobustext {
+  padding: 20px;
+  width: 50%;
+}
+.avtobusimg img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.avtobusimg {
+  padding: 40px;
+  width: 50%;
+}
+.avtobustext p {
+  font-size: 23px;
+  color: #08173f;
+}
+
+.avtobustext h1 {
+  color: #08173f !important;
+}

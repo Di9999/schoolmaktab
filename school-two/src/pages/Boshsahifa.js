@@ -6,6 +6,13 @@ import Navbar from "./Navbar";
 import "react-multi-carousel/lib/styles.css";
 import { Clusterer, Map, Placemark, YMaps } from "react-yandex-maps";
 import Carousel from "react-multi-carousel";
+import oshxona1 from "../img/oshxona1.jpg";
+import sport from "../img/sport2.jpeg";
+import musiqa from "../img/musiqa2.jpg";
+import inform from "../img/inform2.jpeg";
+import oxrana from "../img/oxrana1.jpg";
+import med from "../img/med1.jpg";
+
 export default class Boshsahifa extends Component {
   render() {
     return (
@@ -94,6 +101,81 @@ export default class Boshsahifa extends Component {
             </div>
           </Row>
         </Container>
+        <Container>
+          <Row className={`${style.avtobus} `}>
+            <div>
+              <Col md={6} lg={6}>
+                <div className={style.avtobusimage}>
+                  <Image style={{ width: "100%" }} src={registr} />
+                </div>
+              </Col>
+
+              <Col xs={12} sm={12} md={6} lg={6}>
+                <div className={style.avtobustext}>
+                  <h3>Transport xizmati</h3>
+                  <p>
+                    Maktabimizda bolalarni maktabga yetkazib kelish uchun
+                    shaxsiy transport vositasi yo'q. Lekin shunga qaramay
+                    maktabimiz avtomobillar yo'liga yaqin joylashgani va maktab
+                    yaqinida avtobus bekati borligi, o'quvchilarning
+                    maktabimizga yetib kelishlarini anchagina osonlashtirib
+                    beradi. Maktabimiz atrofidagi avtomobil yo'llariga avtomobil
+                    harakatini sekinlashtiruvchi yo'l belgilari va bolalarni
+                    yo'lda o'tishi uchun piyodalar yo'lakchasi mavjudligi,
+                    bolalarimizni sodir bo'lishi mumkin bo'lgan ko'plab
+                    avtohalokatlardan asraydi.
+                  </p>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </Container>
+        {/* <Container>
+          <Row className={`${style.prezident} `}>
+            <div>
+              <Col md={6} lg={6}>
+                <div className={style.prezidentimage}>
+                  <Image style={{ width: "100%" }} src={registr} />
+                </div>
+              </Col>
+
+              <Col xs={12} sm={12} md={6} lg={6}>
+                <div className={style.prezidenttext}>
+                  <h3>
+                    Maktab bu hayot-mamot masalasi, kelajak masalasi. Uni
+                    davlat, hukumat va hokimlarning o‘zi hal qilolmaydi. Bu
+                    butun jamiyatning ishi, burchiga aylanishi kerak
+                  </h3>
+                  <h4>Shavkat Mirziyoyev</h4>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </Container> */}
+        <Col>
+          <div className={style.avtobus}>
+            <div className={style.avtobustext}>
+              {" "}
+              <h1>Transport xizmati</h1>
+              <p>
+                Talabalar shaharchasida sayohat qilishning ko'plab variantlari
+                mavjud. U erda ko'r-ko'rona matnlar yashaydi. Alohida ular
+                Semantika qirg'og'idagi Bookmarksgroveda, katta til okeanida
+                yashaydilar. Duden nomli kichik daryo ularning joylari bo'ylab
+                oqadi va uni zarur regelialiya bilan ta'minlaydi. Bu
+                paradizmatik. Bu jumlaning qovurilgan qismlari uchib ketadigan
+                jannat matikasi mamlakati.
+              </p>
+            </div>
+            <div className={style.avtobusimg}>
+              <Image
+                src={oshxona1}
+                className={style.secondImage}
+                data-aos="zoom-in-up"
+              />
+            </div>
+          </div>
+        </Col>
         <div className={style.cardinfo}>
           <Row>
             <Col lg={12}>
@@ -103,7 +185,7 @@ export default class Boshsahifa extends Component {
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
               <div className={style.cardnumb}>
-                <img />
+                <img alt=" " src={oshxona1} />
                 <h1>Maktab oshxonasi</h1>
                 <p>
                   Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
@@ -116,7 +198,7 @@ export default class Boshsahifa extends Component {
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
               <div className={style.cardnumb}>
-                <img />
+                <img alt=" " src={sport} />
 
                 <h1>Sport mashg'ulotlari</h1>
                 <p>
@@ -136,7 +218,7 @@ export default class Boshsahifa extends Component {
               style={{ marginRight: "0%" }}
             >
               <div className={style.cardnumb}>
-                <img />
+                <img alt=" " src={musiqa} />
                 <h1>San'at va madaniyat</h1>
                 <p>
                   Maktabimizda musiqa sohasida yetuk tajribaga ega o'qituvchimiz
@@ -149,7 +231,7 @@ export default class Boshsahifa extends Component {
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
               <div className={style.cardnumb}>
-                <img />
+                <img alt=" " src={inform} />
                 <h1>Axborot texnologiyalari</h1>
                 <p>
                   Maktabimizda kompyuter va boshqa axborot texnologiyalari bilan
@@ -161,7 +243,7 @@ export default class Boshsahifa extends Component {
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
               <div className={style.cardnumb}>
-                <img />
+                <img alt=" " src={oxrana} />
 
                 <h1>Xavfsizlik va qo'riqlash</h1>
                 <p>
@@ -180,7 +262,7 @@ export default class Boshsahifa extends Component {
               style={{ marginRight: "0%" }}
             >
               <div className={style.cardnumb}>
-                <img />
+                <img alt=" " src={med} />
                 <div
                 // style={{
                 //   backgroundColor: "#801085",
