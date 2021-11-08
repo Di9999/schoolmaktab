@@ -1,13 +1,7 @@
 body {
   background-color: rgb(239, 236, 247);
 }
-.qabul {
-  background-color: aqua;
-  width: 500px;
-}
-.qabulImg {
-  width: 200px;
-}
+
 .orange {
   background-color: orangered;
   width: 50%;
@@ -56,7 +50,7 @@ body {
   text-align: center;
 }
 .sarlavha1 {
-  color: rgb(28, 10, 77) !important;
+  color: rgb(23, 7, 66) !important;
   font-size: 40px !important;
   text-align: center;
 }
@@ -68,7 +62,7 @@ body {
   padding: 3%;
 }
 .cardnumb:hover {
-  background-color: rgb(28, 10, 77);
+  background-color: rgb(29, 35, 70);
 }
 .manzilmap {
   margin-left: 10%;
@@ -77,13 +71,18 @@ body {
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .xarita {
-  background-color: rgb(28, 10, 77);
+  background-color: rgb(29, 35, 70);
+}
+.avtobusgl {
+  background-color: rgb(29, 35, 70);
+}
+.qabulgl {
+  background-color: orangered;
 }
 .avtobus {
   width: 80%;
   display: flex;
   margin-left: 10%;
-  background-color: rgb(28, 10, 77);
 }
 .prezident {
   width: 80%;
@@ -91,19 +90,22 @@ body {
   margin-left: 10%;
 }
 .avtobustext {
-  padding: 20px;
+  padding: 10%;
   width: 50%;
+  margin-top: -10%;
+  background-color: orangered;
 }
 .avtobusimg img {
-  width: 85%;
-  height: 400px;
+  width: 80%;
+  height: 465px;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  border: 10px solid rgb(255, 252, 252);
+  border: 10px solid rgb(255, 30, 0);
 }
 .avtobusimg {
-  padding: 40px;
+  padding-top: 4%;
   width: 50%;
+  height: auto;
 }
 .avtobustext p {
   font-size: 23px;
@@ -112,11 +114,57 @@ body {
 .avtobustext h1 {
   color: #ffffff !important;
 }
+.qabul {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+
+.qabultext {
+  padding: 10%;
+  width: 50%;
+  /* height: 700px; */
+  background-color: rgb(29, 35, 70);
+  margin-top: -10%;
+}
+.qabulBtn button {
+  background-color: rgba(248, 251, 255, 0.877);
+  width: 70%;
+  height: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.qabulBtn button a {
+  color: rgb(29, 35, 70);
+  font-size: 18px;
+  font-weight: bolder;
+}
+.qabulBtn button:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.qabulimg img {
+  width: 50%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.qabulimg {
+  width: 50%;
+  padding: 5%;
+  height: auto;
+  padding-right: 2%;
+}
+.qabultext p {
+  font-size: 23px;
+  color: #ffffff;
+}
+.qabultext h2 {
+  font-size: 26px;
+  color: #ffffff !important;
+}
+
 .prezidenttext {
   width: 70%;
-  height: 150px;
+  height: 200px;
   margin-top: 5%;
-  background-color: rgb(28, 10, 77);
+  background-color: rgb(29, 35, 70);
   color: white;
   padding: 1%;
 }
@@ -124,7 +172,7 @@ body {
   width: 78%;
   height: 310px;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
-  border: 10px solid rgb(28, 10, 77);
+  border: 10px solid rgb(29, 35, 70);
   border-radius: 50%;
   margin-top: -10%;
   margin-left: 6%;

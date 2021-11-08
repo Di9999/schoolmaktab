@@ -14,13 +14,13 @@ import oxrana from "../img/oxrana1.jpg";
 import avtobus from "../img/avtobus.jpg";
 import prezident from "../img/prezident.jpg";
 import med from "../img/med1.jpg";
-
+import Darsliklar from "./Darsliklar";
 export default class Boshsahifa extends Component {
   render() {
     return (
       <div>
         <Container>
-          <div className={style.card_items}>
+          {/* <div className={style.card_items}>
             <Card
               style={{ backgroundColor: "red" }}
               className={style.card_item}
@@ -31,42 +31,7 @@ export default class Boshsahifa extends Component {
                 </Card.Title>
               </Card.Body>
             </Card>
-          </div>
-        </Container>
-        <Container>
-          <Row className={`${style.qabul} `}>
-            <div>
-              <Col md={6} lg={6}>
-                <div className={style.qabulImg}>
-                  <Image style={{ width: "100%" }} src={registr} />
-                </div>
-              </Col>
-
-              <Col xs={12} sm={12} md={6} lg={6}>
-                <div className={style.qabulText}>
-                  <h2>Qabul uchun ariza topshiring</h2>
-                  <p>
-                    Kuzgi qabul jarayoni hozir mavjud <br />
-                    Biz o'quvchilarimizga shunchaki ta'lim beribgina qolmasdan,
-                    shu bilan birga ularga kelajakda o'z o'rnilarini
-                    topishlariga yordam beramiz.
-                  </p>
-                </div>
-                <div className={style.qabulBtn}>
-                  <button className="btn drawBorder">
-                    <a
-                      style={{ textDecoration: "none" }}
-                      href="https://my.maktab.uz/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Hoziroq ariza topshiring
-                    </a>
-                  </button>
-                </div>
-              </Col>
-            </div>
-          </Row>
+          </div> */}
         </Container>
         <Container>
           <Row className={`${style.orange} `}>
@@ -110,9 +75,9 @@ export default class Boshsahifa extends Component {
             <div className={style.prezidenttext}>
               {" "}
               <h2>
-                Maktab bu hayot-mamot masalasi, kelajak masalasi. Uni davlat,
+                "Maktab bu hayot-mamot masalasi, kelajak masalasi. Uni davlat,
                 hukumat va hokimlarning o‘zi hal qilolmaydi. Bu butun
-                jamiyatning ishi, burchiga aylanishi kerak
+                jamiyatning ishi, burchiga aylanishi kerak"
               </h2>
               <h3>Shavkat Mirziyoyev</h3>
             </div>
@@ -121,27 +86,61 @@ export default class Boshsahifa extends Component {
             </div>
           </div>
         </Col>
-        <br /> <br />
-        <Col>
-          <div className={style.avtobus}>
-            <div className={style.avtobusimg}>
-              <Image src={avtobus} className={style.secondImage} />
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+        <div className={style.qabulgl}>
+          <Col>
+            <div className={style.qabul}>
+              <div className={style.qabulimg}>
+                <Image style={{ width: "100%" }} src={registr} />
+              </div>
+              <div className={style.qabultext}>
+                {" "}
+                <h2>Qabul uchun ariza topshiring</h2>
+                <p>
+                  Kuzgi qabul jarayoni hozir mavjud <br />
+                  Biz o'quvchilarimizga shunchaki ta'lim beribgina qolmasdan,
+                  shu bilan birga ularga kelajakda o'z o'rnilarini topishlariga
+                  yordam beramiz.
+                </p>
+                <div className={style.qabulBtn}>
+                  <button className="btn drawBorder">
+                    <a
+                      style={{ textDecoration: "none" }}
+                      href="https://my.maktab.uz/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Hoziroq ariza topshiring
+                    </a>
+                  </button>
+                </div>
+              </div>
             </div>
-            <div className={style.avtobustext}>
-              {" "}
-              <h1>Transport xizmati</h1>
-              <p>
-                Talabalar shaharchasida sayohat qilishning ko'plab variantlari
-                mavjud. U erda ko'r-ko'rona matnlar yashaydi. Alohida ular
-                Semantika qirg'og'idagi Bookmarksgroveda, katta til okeanida
-                yashaydilar. Duden nomli kichik daryo ularning joylari bo'ylab
-                oqadi va uni zarur regelialiya bilan ta'minlaydi. Bu
-                paradizmatik. Bu jumlaning qovurilgan qismlari uchib ketadigan
-                jannat matikasi mamlakati.
-              </p>
+          </Col>
+        </div>
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+        <div className={style.avtobusgl}>
+          <Col>
+            <div className={style.avtobus}>
+              <div className={style.avtobusimg}>
+                <Image src={avtobus} className={style.secondImage} />
+              </div>
+              <div className={style.avtobustext}>
+                {" "}
+                <h1>Transport xizmati</h1>
+                <p>
+                  Talabalar shaharchasida sayohat qilishning ko'plab variantlari
+                  mavjud. U erda ko'r-ko'rona matnlar yashaydi. Alohida ular
+                  Semantika qirg'og'idagi Bookmarksgroveda, katta til okeanida
+                  yashaydilar. Duden nomli kichik daryo ularning joylari bo'ylab
+                  oqadi va uni zarur regelialiya bilan ta'minlaydi. Bu
+                  paradizmatik. Bu jumlaning qovurilgan qismlari uchib ketadigan
+                  jannat matikasi mamlakati.
+                </p>
+              </div>
             </div>
-          </div>
-        </Col>
+          </Col>
+        </div>
         <div className={style.cardinfo}>
           <Row>
             <Col lg={12}>
@@ -380,6 +379,28 @@ export default class Boshsahifa extends Component {
           </YMaps>
         </div>
         <br /> <br />
+        <div className={style.cardinfo}>
+          <Row>
+            <Col lg={12}>
+              <br />
+              <h1 className={style.sarlavha1}>Yangiliklar</h1>
+              <br />
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
+              <div className={style.cardnumb}>
+                <img alt=" " src={oshxona1} />
+                <h1>Maktab oshxonasi</h1>
+                <p>
+                  Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
+                  o'quv yilida o'quvchilarimizga to'liq jihozlangan, gigiyena
+                  qoidalariga rioya qilingan va mahoratli oshpazlarimiz
+                  tomonidan pishirilgan turli xil mazali taomlar bilan
+                  boyitilgan oshxonani taqdim etamiz.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
     );
   }
