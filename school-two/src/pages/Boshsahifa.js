@@ -14,6 +14,7 @@ import oxrana from "../img/oxrana1.jpg";
 import avtobus from "../img/avtobus.jpg";
 import prezident from "../img/prezident.jpg";
 import med from "../img/med1.jpg";
+import prosto from "../img/5.jpg";
 import Darsliklar from "./Darsliklar";
 export default class Boshsahifa extends Component {
   render() {
@@ -34,11 +35,10 @@ export default class Boshsahifa extends Component {
           </div> */}
         </Container>
         <Container>
-          <Row className={`${style.orange} `}>
+          {/* <Row className={`${style.orange} `}>
             <div>
               <Col md={6} lg={6}>
                 <div className={style.orangeImg}>
-                  {/* <Image style={{ width: "100%" }} src={registr} /> */}
                 </div>
               </Col>
 
@@ -66,7 +66,7 @@ export default class Boshsahifa extends Component {
                 </div>
               </Col>
             </div>
-          </Row>
+          </Row> */}
         </Container>
         <br />
         <br />
@@ -175,13 +175,7 @@ export default class Boshsahifa extends Component {
                 </p>
               </div>
             </Col>
-            <Col
-              lg={4}
-              md={6}
-              sm={12}
-              className={style.cardBolimlar}
-              style={{ marginRight: "0%" }}
-            >
+            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
               <div className={style.cardnumb}>
                 <img alt=" " src={musiqa} />
                 <h1>San'at va madaniyat</h1>
@@ -219,13 +213,7 @@ export default class Boshsahifa extends Component {
                 </p>
               </div>
             </Col>
-            <Col
-              lg={4}
-              md={6}
-              sm={12}
-              className={style.cardBolimlar}
-              style={{ marginRight: "0%" }}
-            >
+            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
               <div className={style.cardnumb}>
                 <img alt=" " src={med} />
                 <div
@@ -379,25 +367,34 @@ export default class Boshsahifa extends Component {
           </YMaps>
         </div>
         <br /> <br />
-        <div className={style.cardinfo}>
+        <div className={style.alochilar}>
           <Row>
             <Col lg={12}>
               <br />
-              <h1 className={style.sarlavha1}>Yangiliklar</h1>
+              <h1 className={style.sarlavha1}>A'lochilar doskasi</h1>
               <br />
             </Col>
-            <Col lg={4} md={6} sm={12} className={style.cardBolimlar}>
-              <div className={style.cardnumb}>
-                <img alt=" " src={oshxona1} />
-                <h1>Maktab oshxonasi</h1>
-                <p>
-                  Maktabimiz oshxonasi hozirda rekanstruksiya qilinyapti. Yangi
-                  o'quv yilida o'quvchilarimizga to'liq jihozlangan, gigiyena
-                  qoidalariga rioya qilingan va mahoratli oshpazlarimiz
-                  tomonidan pishirilgan turli xil mazali taomlar bilan
-                  boyitilgan oshxonani taqdim etamiz.
-                </p>
+            <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
+              {/* <div className={style.alochi}> */}
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={prosto} style={{ width: "20%" }} />
               </div>
+              <div className={style.cardalochilartxt}>
+                <h1>Mardonov Bahrom Davron o'g'li</h1>
+                <p>8 - "D" sinf</p>
+              </div>
+              {/* </div> */}
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
+              {/* <div className={style.alochi}> */}
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={prosto} style={{ width: "20%" }} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>Bahromov Abduxalil Abror o'g'li</h1>
+                <p>8 - "D" sinf</p>
+              </div>
+              {/* </div> */}
             </Col>
           </Row>
         </div>
