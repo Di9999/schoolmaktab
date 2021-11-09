@@ -13,6 +13,8 @@ import inform from "../img/inform2.jpeg";
 import oxrana from "../img/oxrana1.jpg";
 import avtobus from "../img/avtobus.jpg";
 import prezident from "../img/prezident.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "antd/dist/antd.css";
 import med from "../img/med1.jpg";
 import prosto from "../img/5.jpg";
 import Darsliklar from "./Darsliklar";
@@ -377,7 +379,7 @@ export default class Boshsahifa extends Component {
             <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
               {/* <div className={style.alochi}> */}
               <div className={style.cardalochilarimg}>
-                <img alt=" " src={prosto} style={{ width: "20%" }} />
+                <img alt=" " src={prosto} />
               </div>
               <div className={style.cardalochilartxt}>
                 <h1>Mardonov Bahrom Davron o'g'li</h1>
@@ -388,7 +390,7 @@ export default class Boshsahifa extends Component {
             <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
               {/* <div className={style.alochi}> */}
               <div className={style.cardalochilarimg}>
-                <img alt=" " src={prosto} style={{ width: "20%" }} />
+                <img alt=" " src={prosto} />
               </div>
               <div className={style.cardalochilartxt}>
                 <h1>Bahromov Abduxalil Abror o'g'li</h1>
