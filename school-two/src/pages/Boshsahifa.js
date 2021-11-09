@@ -146,7 +146,8 @@ export default class Boshsahifa extends Component {
               </div>
             </div>
           </Col>
-        </div>
+        </div>{" "}
+        <br /> <br />
         <div className={style.cardinfo}>
           <Row>
             <Col lg={12}>

@@ -7,7 +7,6 @@ summary {
   display: block;
   cursor: pointer;
   padding: 10px;
-  font-family: "Space Mono", monospace;
   font-size: 22px;
   transition: 0.3s;
 
@@ -20,7 +19,6 @@ details > div {
   height: 100%;
   user-select: none;
   padding: 0 20px;
-  font-family: "Karla", sans-serif;
   line-height: 1.5;
 }
 details > div > img {
@@ -34,6 +32,13 @@ details > div > p {
 details[open] > summary {
   color: red;
 }
+.cart {
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 @media (min-width: 768px) {
   details[open] > div > p {
     opacity: 0;
