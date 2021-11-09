@@ -17,6 +17,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 import med from "../img/med1.jpg";
 import prosto from "../img/5.jpg";
+import ustoz2 from "../img/ustoz3.jpg";
+import ustoz1 from "../img/ustoz5.jpg";
 import Darsliklar from "./Darsliklar";
 export default class Boshsahifa extends Component {
   render() {
@@ -120,6 +122,8 @@ export default class Boshsahifa extends Component {
             </div>
           </Col>
         </div>
+        <br /> <br />
+        <Darsliklar />
         <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
         <div className={style.avtobusgl}>
           <Col>
@@ -329,7 +333,64 @@ export default class Boshsahifa extends Component {
               <p>IT Tower firmasi </p>
             </div>
           </Carousel> */}
+        </div>{" "}
+        <br /> <br />
+        <div className={style.alochilar}>
+          <Row>
+            <Col lg={12}>
+              <br />
+              <h1 className={style.sarlavha1}>A'lochilar doskasi</h1>
+              <br />
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={prosto} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>Mardonov Bahrom Davron o'g'li</h1>
+                <p>8 - "D" sinf</p>
+              </div>
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={prosto} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>Bahromov Abduxalil Abror o'g'li</h1>
+                <p>8 - "D" sinf</p>
+              </div>
+            </Col>
+          </Row>
         </div>
+        <br /> <br /> <br /> <br /> <br /> <br />
+        <div className={style.oqituvchi}>
+          <Row>
+            <Col lg={12}>
+              <br />
+              <h1 className={style.sarlavha1}>O'qituvchilar doskasi</h1>
+              <br />
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardoqituv}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz1} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Tosheva Gavhar Umarovna</h1>
+                <p>Matematika fani o'qituvchisi</p>
+              </div>
+            </Col>
+            <Col lg={4} md={6} sm={12} className={style.cardoqituv}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz2} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Ravshanova Mamlakat Sulaymonovna</h1>
+                <p>Rus tili filologiya o'qituvchi</p>
+              </div>
+            </Col>
+          </Row>
+        </div>
+        <br /> <br /> <br /> <br /> <br /> <br />
         <div className={style.xarita}>
           <br />
           <h1 className={style.sarlavha}> Bizning manzilimiz</h1>
@@ -369,37 +430,6 @@ export default class Boshsahifa extends Component {
           </YMaps>
         </div>
         <br /> <br />
-        <div className={style.alochilar}>
-          <Row>
-            <Col lg={12}>
-              <br />
-              <h1 className={style.sarlavha1}>A'lochilar doskasi</h1>
-              <br />
-            </Col>
-            <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
-              {/* <div className={style.alochi}> */}
-              <div className={style.cardalochilarimg}>
-                <img alt=" " src={prosto} />
-              </div>
-              <div className={style.cardalochilartxt}>
-                <h1>Mardonov Bahrom Davron o'g'li</h1>
-                <p>8 - "D" sinf</p>
-              </div>
-              {/* </div> */}
-            </Col>
-            <Col lg={4} md={6} sm={12} className={style.cardalochilar}>
-              {/* <div className={style.alochi}> */}
-              <div className={style.cardalochilarimg}>
-                <img alt=" " src={prosto} />
-              </div>
-              <div className={style.cardalochilartxt}>
-                <h1>Bahromov Abduxalil Abror o'g'li</h1>
-                <p>8 - "D" sinf</p>
-              </div>
-              {/* </div> */}
-            </Col>
-          </Row>
-        </div>
       </div>
     );
   }

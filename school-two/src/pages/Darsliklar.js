@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { FaDownload, FaFolder } from "react-icons/fa";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import "./darslik.css";
+import style from "../css/Boshsahifa.module.css";
 import { Rate } from "antd";
 import {
   sinf11,
@@ -25,7 +26,8 @@ export default class Darsliklar extends Component {
     return (
       <div>
         <section style={{ padding: "30px" }}>
-          <h1>Darsliklar</h1>
+          {/* <h1>Darsliklar</h1> */}
+          <h1 className={style.sarlavha1}>Darsliklar</h1>
           <Tabs defaultActiveKey="1" size="40px">
             <TabPane
               tab={

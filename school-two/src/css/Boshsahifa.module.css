@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 247, 247);
+  background-color: rgb(243, 239, 239);
 }
 
 .orange {
@@ -192,20 +192,68 @@ body {
   margin-left: 65%;
 }
 
-.alochi {
-  background-color: blueviolet;
-  width: 40%;
-}
-
 .cardalochilar {
-  background-color: coral;
+  width: 80%;
+  margin-left: 10%;
 }
 .cardalochilarimg {
-  width: 25%;
-  height: 370px;
+  width: 80%;
+  height: 390px;
 }
 .cardalochilarimg img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  border: 10px solid rgb(29, 35, 70);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.cardalochilartxt {
+  background-color: rgb(182, 201, 201);
+  border-radius: 50%;
+  height: 42%;
+  width: 55%;
+  padding-top: 18%;
+  text-align: center;
+  margin-left: 20%;
+  border: 10px solid orangered;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.cardalochilartxt h1 {
+  font-size: 22px;
+}
+.cardalochilartxt p {
+  font-size: 24px;
+}
+
+.cardoqituv {
+  width: 80%;
+  margin-left: 10%;
+}
+.cardoqituvimg {
+  width: 80%;
+  height: 390px;
+}
+.cardoqituvimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 10px solid orangered;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.cardoqituvtxt {
+  background-color: rgb(182, 201, 201);
+  border-radius: 50%;
+  height: 42%;
+  width: 55%;
+  padding-top: 16%;
+  text-align: center;
+  border: 10px solid rgb(29, 35, 70);
+  margin-left: 20%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.cardoqituvtxt h1 {
+  font-size: 21px;
+}
+.cardoqituvtxt p {
+  font-size: 22px;
 }
