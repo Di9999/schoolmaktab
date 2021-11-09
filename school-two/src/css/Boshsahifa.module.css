@@ -1,7 +1,16 @@
 body {
   background-color: rgb(243, 239, 239);
 }
-
+.header {
+  height: 720px;
+  background-color: rgb(206, 201, 211);
+  width: 100%;
+  text-align: center;
+}
+.header h1 {
+  color: white;
+  padding-top: 20%;
+}
 .orange {
   background-color: orangered;
   width: 50%;
@@ -19,7 +28,6 @@ body {
 }
 
 .cardinfo {
-  /* background-color: rgb(40, 250, 134); */
   width: 80%;
   display: flex;
   margin-left: 10%;
@@ -81,7 +89,6 @@ body {
 .qabulgl {
   background-color: orangered;
 }
-
 .avtobus {
   width: 80%;
   display: flex;
@@ -184,20 +191,22 @@ body {
 .prezidenttext h2 {
   font-size: 20px;
   color: #ffffff;
-  margin: 2%;
+  margin: 5%;
 }
 .prezidenttext h3 {
-  color: #ffffff !important;
+  color: orangered !important;
   font-size: 22px;
   margin-left: 65%;
+  margin-top: -3%;
 }
-
 .cardalochilar {
   width: 80%;
   margin-left: 10%;
+  position: relative;
 }
 .cardalochilarimg {
   width: 80%;
+  position: absolute;
   height: 390px;
 }
 .cardalochilarimg img {
@@ -208,14 +217,16 @@ body {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 .cardalochilartxt {
+  position: absolute;
+  margin-top: 50%;
   background-color: rgb(182, 201, 201);
   border-radius: 50%;
-  height: 42%;
+  height: 270px;
   width: 55%;
-  padding-top: 18%;
+  padding: 8%;
   text-align: center;
-  margin-left: 20%;
   border: 10px solid orangered;
+  margin-left: 30%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 .cardalochilartxt h1 {
@@ -224,13 +235,14 @@ body {
 .cardalochilartxt p {
   font-size: 24px;
 }
-
 .cardoqituv {
   width: 80%;
   margin-left: 10%;
+  position: relative;
 }
 .cardoqituvimg {
   width: 80%;
+  position: absolute;
   height: 390px;
 }
 .cardoqituvimg img {
@@ -241,19 +253,35 @@ body {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 .cardoqituvtxt {
+  position: absolute;
+  margin-top: 50%;
   background-color: rgb(182, 201, 201);
   border-radius: 50%;
-  height: 42%;
+  height: 270px;
   width: 55%;
-  padding-top: 16%;
+  padding: 10%;
   text-align: center;
   border: 10px solid rgb(29, 35, 70);
-  margin-left: 20%;
+  margin-left: 30%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 .cardoqituvtxt h1 {
   font-size: 21px;
 }
 .cardoqituvtxt p {
-  font-size: 22px;
+  font-size: 20px;
+}
+.footer {
+  background-color: rgb(39, 39, 41);
+  height: 300px;
+}
+.boglanish {
+  padding-top: 12%;
+  margin-left: 75%;
+}
+.boglanish p {
+  color: #ffffff;
+  display: inline;
+  padding: 2%;
+  font-size: 20px;
 }

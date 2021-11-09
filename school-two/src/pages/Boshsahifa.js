@@ -20,12 +20,19 @@ import prosto from "../img/5.jpg";
 import ustoz2 from "../img/ustoz3.jpg";
 import ustoz1 from "../img/ustoz5.jpg";
 import Darsliklar from "./Darsliklar";
+import { NavLink } from "react-router-dom";
+import { FaTelegram, FaFacebook } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { AiFillYoutube } from "react-icons/ai";
 export default class Boshsahifa extends Component {
   render() {
     return (
       <div>
-        <Container>
-          {/* <div className={style.card_items}>
+        <div className={style.header}>
+          <h1>BIZNING MAKTABIMIZGA XUSH KELIBSIZ!</h1>
+        </div>
+        {/* <Container>
+          <div className={style.header}>
             <Card
               style={{ backgroundColor: "red" }}
               className={style.card_item}
@@ -36,8 +43,11 @@ export default class Boshsahifa extends Component {
                 </Card.Title>
               </Card.Body>
             </Card>
-          </div> */}
-        </Container>
+          </div>
+        </Container> */}
+        <br />
+        <br />
+        <br />
         <Container>
           {/* <Row className={`${style.orange} `}>
             <div>
@@ -72,8 +82,6 @@ export default class Boshsahifa extends Component {
             </div>
           </Row> */}
         </Container>
-        <br />
-        <br />
         <Col>
           <div className={style.prezident}>
             <div className={style.prezidenttext}>
@@ -90,7 +98,11 @@ export default class Boshsahifa extends Component {
             </div>
           </div>
         </Col>
-        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> <br /> <br /> <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className={style.qabulgl}>
           <Col>
             <div className={style.qabul}>
@@ -123,6 +135,8 @@ export default class Boshsahifa extends Component {
           </Col>
         </div>
         <br /> <br />
+        <br />
+        <br />
         <Darsliklar />
         <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
         <div className={style.avtobusgl}>
@@ -348,7 +362,10 @@ export default class Boshsahifa extends Component {
                 <img alt=" " src={prosto} />
               </div>
               <div className={style.cardalochilartxt}>
-                <h1>Mardonov Bahrom Davron o'g'li</h1>
+                <h1>
+                  Mardonov Bahrom
+                  <br /> Davron o'g'li
+                </h1>
                 <p>8 - "D" sinf</p>
               </div>
             </Col>
@@ -357,13 +374,18 @@ export default class Boshsahifa extends Component {
                 <img alt=" " src={prosto} />
               </div>
               <div className={style.cardalochilartxt}>
-                <h1>Bahromov Abduxalil Abror o'g'li</h1>
+                <h1>
+                  Bahromov Abduxalil <br /> Abror o'g'li
+                </h1>
                 <p>8 - "D" sinf</p>
               </div>
             </Col>
           </Row>
         </div>
-        <br /> <br /> <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+        <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> <br />
         <div className={style.oqituvchi}>
           <Row>
             <Col lg={12}>
@@ -391,6 +413,10 @@ export default class Boshsahifa extends Component {
             </Col>
           </Row>
         </div>
+        <br /> <br /> <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> <br /> <br /> <br />
         <br /> <br /> <br /> <br /> <br /> <br />
         <div className={style.xarita}>
           <br />
@@ -431,6 +457,24 @@ export default class Boshsahifa extends Component {
           </YMaps>
         </div>
         <br /> <br />
+        <div className={style.footer}>
+          <div className="row">
+            <Col className={style.boglanish} lg={10} md={10} sm={12} xl={10}>
+              <p>
+                <FaTelegram className={style.relations} />
+              </p>
+              <p>
+                <FiInstagram className={style.relations} />
+              </p>
+              <p>
+                <FaFacebook className={style.relations} />
+              </p>
+              <p>
+                <AiFillYoutube className={style.relations} />
+              </p>
+            </Col>
+          </div>
+        </div>
       </div>
     );
   }
