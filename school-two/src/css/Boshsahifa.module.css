@@ -285,3 +285,23 @@ body {
   padding: 2%;
   font-size: 20px;
 }
+.telegram {
+  width: 100%;
+  margin-left: 7%;
+}
+.telegram pr {
+  color: rgb(23, 7, 66);
+  display: inline;
+  font-size: 27px;
+  font-weight: 450;
+  padding: 1%;
+}
+.telegram p {
+  color: rgb(66, 7, 7);
+  display: inline;
+  font-size: 35px;
+  padding: 1%;
+}
+.telegram pr:hover {
+  color: orangered;
+}

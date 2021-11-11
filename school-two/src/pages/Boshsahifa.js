@@ -28,7 +28,6 @@ export default class Boshsahifa extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <div className={style.header}>
           <h1>BIZNING MAKTABIMIZGA XUSH KELIBSIZ!</h1>
         </div>
@@ -256,6 +255,37 @@ export default class Boshsahifa extends Component {
               </div>
             </Col>
           </Row>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div classname={style.telegramgl}>
+          <h1 className={style.sarlavha1}>Bizning ijtimoiy sahifalarimiz</h1>
+          <br /> <br />
+          <div className="row">
+            <Col className={style.telegram} lg={10} md={10} sm={12} xl={10}>
+              <p>
+                <FaTelegram
+                  className={style.relations}
+                  style={{ marginLeft: "5%" }}
+                />
+                <pr>Telegram sahifasi</pr>
+              </p>
+              <p>
+                <FiInstagram className={style.relations} />
+                <pr>Instagram sahifasi</pr>
+              </p>
+              <p>
+                <FaFacebook className={style.relations} />
+                <pr>Facebook sahifasi </pr>
+              </p>
+              <p>
+                <AiFillYoutube className={style.relations} />
+                <pr>YouTube sahifasi</pr>
+              </p>
+            </Col>
+          </div>{" "}
+          <br />
         </div>
         <div className="sliderHomiy" style={{ backgroundColor: "white" }}>
           {/* <Carousel
