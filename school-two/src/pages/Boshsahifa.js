@@ -3,6 +3,7 @@ import style from "../css/Boshsahifa.module.css";
 import { Col, Container, Card, Row, Image } from "react-bootstrap";
 import registr from "../img/registr.jpg";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "react-multi-carousel/lib/styles.css";
 import { Clusterer, Map, Placemark, YMaps } from "react-yandex-maps";
 import Carousel from "react-multi-carousel";
@@ -20,7 +21,7 @@ import prosto from "../img/5.jpg";
 import ustoz2 from "../img/ustoz3.jpg";
 import ustoz1 from "../img/ustoz5.jpg";
 import Darsliklar from "./Darsliklar";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { FaTelegram, FaFacebook } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { AiFillYoutube } from "react-icons/ai";
@@ -303,8 +304,7 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://president.uz/oz" target="_blank">
-                </a>
+                <a href="https://president.uz/oz" target="_blank"></a>
               </div>
               <p>O'zbekiston Respublikasi Prezidentining rasmiy veb-sayti</p>
             </div>
@@ -317,8 +317,7 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://www.gov.uz/uz" target="_blank">
-                </a>
+                <a href="https://www.gov.uz/uz" target="_blank"></a>
               </div>
               <p>O'zbekiston Respublikasining Hukumat portali</p>
             </div>
@@ -331,8 +330,7 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://lex.uz/" target="_blank">
-                </a>
+                <a href="https://lex.uz/" target="_blank"></a>
               </div>
               <p>O'zbekiston Respublikasi qonun hujjatlari milliy bazasi</p>
             </div>
@@ -345,8 +343,7 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://my.gov.uz/oz" target="_blank">
-                </a>
+                <a href="https://my.gov.uz/oz" target="_blank"></a>
               </div>
               <p>Interaktiv davlat xizmatlarining Yagona portali</p>
             </div>
@@ -359,8 +356,7 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://www.uzedu.uz/" target="_blank">
-                </a>
+                <a href="https://www.uzedu.uz/" target="_blank"></a>
               </div>
               <p>O'zbekiston Respublikasi xalq ta'limi vazirligi</p>
             </div>
@@ -373,8 +369,7 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://ittower.uz/" target="_blank">
-                </a>
+                <a href="https://ittower.uz/" target="_blank"></a>
               </div>
               <p>IT Tower firmasi </p>
             </div>
@@ -488,24 +483,7 @@ export default class Boshsahifa extends Component {
           </YMaps>
         </div>
         <br /> <br />
-        <div className={style.footer}>
-          <div className="row">
-            <Col className={style.boglanish} lg={10} md={10} sm={12} xl={10}>
-              <p>
-                <FaTelegram className={style.relations} />
-              </p>
-              <p>
-                <FiInstagram className={style.relations} />
-              </p>
-              <p>
-                <FaFacebook className={style.relations} />
-              </p>
-              <p>
-                <AiFillYoutube className={style.relations} />
-              </p>
-            </Col>
-          </div>
-        </div>
+        <Footer />
       </div>
     );
   }
