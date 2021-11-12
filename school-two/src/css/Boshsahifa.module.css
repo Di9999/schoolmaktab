@@ -313,3 +313,150 @@ body {
 .telegram pr:hover {
   color: orangered;
 }
+
+.asosiy {
+  width: 100%;
+  height: 800px;
+  overflow-y: hidden;
+
+  margin-top: 130px;
+  display: flex;
+}
+.rahbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.oyna {
+  width: 100%;
+  height: 90%;
+  background-color: #96c7c1;
+  margin: 5%;
+  display: block;
+  padding: 20px;
+}
+.oyna img {
+  margin: auto;
+
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oyna h3 {
+  margin: auto;
+  font-size: 23px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 0px;
+}
+.oyna h1 {
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+@media (max-width: 1440px) {
+  .asosiy {
+    width: 100%;
+    height: auto;
+    margin-top: 110px;
+    display: flex;
+  }
+  .oyna img {
+    margin: auto;
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .oyna h3 {
+    font-size: 18px;
+  }
+  .oyna h1 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 991px) {
+  .asosiy {
+    width: 100%;
+
+    margin-top: 90px;
+    display: block;
+  }
+  .rahbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .oyna img {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .oyna h3 {
+    font-size: 15px;
+  }
+  .oyna h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .rahbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Accordion qismi */
+.yangili {
+  margin-bottom: 10px;
+  background-color: #96c7c1;
+  width: 30%;
+}
+.yangilik {
+  height: 750px;
+  overflow-y: scroll;
+}
+
+.yangilik h1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.accordionbody {
+  background-color: #96c7c1;
+}
+@media (max-width: 1440px) {
+  .yangilik {
+    overflow-y: scroll;
+    height: 650px;
+  }
+}
+
+@media (max-width: 991px) {
+  .yangili {
+    width: 100%;
+    height: 550px;
+    background-color: #96c7c1;
+  }
+  .yangilik {
+    overflow-y: scroll;
+    height: 550px;
+  }
+}

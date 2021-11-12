@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import style from "../css/Boshsahifa.module.css";
-import { Col, Container, Card, Row, Image } from "react-bootstrap";
+import { Accordion, Col, Container, Card, Row, Image } from "react-bootstrap";
 import registr from "../img/registr.jpg";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -25,8 +25,34 @@ import Darsliklar from "./Darsliklar";
 import { FaTelegram, FaFacebook } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { AiFillYoutube } from "react-icons/ai";
+import her2 from "../img/h2.jpg";
+import her3 from "../img/h3.jpg";
+import her4 from "../img/h4.jpg";
+import her5 from "../img/h5.png";
+import her6 from "../img/h6.png";
+import school from "../img/gerb.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 export default class Boshsahifa extends Component {
   render() {
+    const responsive = {
+      superLargeDesktop: {
+        breakpoint: { max: 4000, min: 3000 },
+        items: 7,
+      },
+      desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 6,
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 3,
+      },
+      mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 2,
+      },
+    };
     return (
       <div>
         <Navbar />
@@ -291,9 +317,14 @@ export default class Boshsahifa extends Component {
           </div>{" "}
           <br />
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="sliderHomiy" style={{ backgroundColor: "white" }}>
+          <h1 className={style.sarlavha1}>Bizning hamkorlarimiz</h1>
           <Carousel
-            responsive={responsive1}
+            responsive={responsive}
             autoPlay={this.props.deviceType !== "mobile" ? true : false}
             autoPlaySpeed={3000}
             infinite={true}
@@ -307,7 +338,13 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://president.uz/oz" target="_blank"></a>
+                <a
+                  href="https://president.uz/oz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={school} />
+                </a>
               </div>
               <p>O'zbekiston Respublikasi Prezidentining rasmiy veb-sayti</p>
             </div>
@@ -320,7 +357,13 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://www.gov.uz/uz" target="_blank"></a>
+                <a
+                  href="https://www.gov.uz/uz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={her2} />
+                </a>
               </div>
               <p>O'zbekiston Respublikasining Hukumat portali</p>
             </div>
@@ -333,7 +376,13 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://lex.uz/" target="_blank"></a>
+                <a
+                  href="https://lex.uz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={her3} />
+                </a>
               </div>
               <p>O'zbekiston Respublikasi qonun hujjatlari milliy bazasi</p>
             </div>
@@ -346,7 +395,13 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://my.gov.uz/oz" target="_blank"></a>
+                <a
+                  href="https://my.gov.uz/oz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={her4} />
+                </a>
               </div>
               <p>Interaktiv davlat xizmatlarining Yagona portali</p>
             </div>
@@ -359,7 +414,13 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://www.uzedu.uz/" target="_blank"></a>
+                <a
+                  href="https://www.uzedu.uz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={her5} />
+                </a>
               </div>
               <p>O'zbekiston Respublikasi xalq ta'limi vazirligi</p>
             </div>
@@ -372,12 +433,18 @@ export default class Boshsahifa extends Component {
               }}
             >
               <div className="toolpat" style={{ backgroundColor: "white" }}>
-                <a href="https://ittower.uz/" target="_blank"></a>
+                <a
+                  href="https://ittower.uz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={her6} />
+                </a>
               </div>
               <p>IT Tower firmasi </p>
             </div>
           </Carousel>
-        </div>{" "}
+        </div>
         <br /> <br />
         <div className={style.alochilar} id="alochilar">
           <Row>
@@ -486,6 +553,225 @@ export default class Boshsahifa extends Component {
           </YMaps>
         </div>
         <Footer />
+        <Router>
+          {/* Asosiy qism */}
+
+          <Link to="/toke2">Expenses</Link>
+          <div id="home" className={style.asosiy}>
+            <div className={style.rahbar}>
+              <div className={style.oyna}>
+                <Routes>
+                  {" "}
+                  <Route
+                    path="/"
+                    element={
+                      <div>
+                        <img
+                          alt=" "
+                          src="https://telegra.ph/file/37c9140e82eba1db37cb4.jpg"
+                        />
+                        <h1>Inson haddan tashqari ko‘p </h1>
+                        <h3>
+                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
+                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
+                          fikrini bayon qilishiga imkon beradi, chunki u uchun
+                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
+                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
+                          anglab yetishga yordam beradigan qiziq savollar
+                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
+                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
+                          bajarishingiz uchun nima kerak bo‘ladi?
+                        </h3>
+                      </div>
+                    }
+                  />
+                  <Route
+                    path="toke1"
+                    element={
+                      <div>
+                        <img
+                          alt=" "
+                          src="https://www.uzedu.uz/uploads/2020/03/img2567-760x500.jpg"
+                        />
+                        <h1>
+                          Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                        </h1>
+                        <h3>
+                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
+                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
+                          fikrini bayon qilishiga imkon beradi, chunki u uchun
+                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
+                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
+                          anglab yetishga yordam beradigan qiziq savollar
+                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
+                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
+                          bajarishingiz uchun nima kerak bo‘ladi?
+                        </h3>
+                      </div>
+                    }
+                  />
+                  <Route
+                    path="toke2"
+                    element={
+                      <div>
+                        <img
+                          alt=" "
+                          src="https://baxtiyor.uz/wp-content/uploads/2020/09/itsga-rahbar-tayinlandi.jpg"
+                        />
+                        <h1>Jizzax xalq hokimiyati </h1>
+                        <h3>
+                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
+                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
+                          fikrini bayon qilishiga imkon beradi, chunki u uchun
+                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
+                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
+                          anglab yetishga yordam beradigan qiziq savollar
+                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
+                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
+                          bajarishingiz uchun nima kerak bo‘ladi?
+                        </h3>
+                      </div>
+                    }
+                  />
+                </Routes>{" "}
+              </div>
+            </div>
+
+            <div className={style.yangili}>
+              <div style={{ paddingBottom: "10px" }} className={style.yangilik}>
+                <h1>Yangiliklar</h1>
+                <Accordion style={{ marginLeft: "10px" }} defaultActiveKey="0">
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link style={{ color: "blue" }} to="/toke2">
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="4">
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link style={{ color: "blue" }} to="/toke2">
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="5">
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link style={{ color: "blue" }} to="/toke2">
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+            </div>
+          </div>
+        </Router>
       </div>
     );
   }
