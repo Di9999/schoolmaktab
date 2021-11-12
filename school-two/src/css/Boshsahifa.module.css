@@ -3,7 +3,10 @@ body {
 }
 .header {
   height: 650px;
-  background-color: rgb(206, 201, 211);
+  /* background-color: rgb(206, 201, 211); */
+  background-image: url(../img/maktab.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
   text-align: center;
 }
@@ -219,21 +222,23 @@ body {
 .cardalochilartxt {
   position: absolute;
   margin-top: 50%;
-  background-color: rgb(182, 201, 201);
+  background-color: orangered;
   border-radius: 50%;
   height: 270px;
   width: 55%;
   padding: 8%;
   text-align: center;
-  border: 10px solid orangered;
+  border: 10px solid rgb(29, 35, 70);
   margin-left: 30%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 .cardalochilartxt h1 {
   font-size: 22px;
+  color: #ffffff;
 }
 .cardalochilartxt p {
   font-size: 24px;
+  color: #ffffff;
 }
 .cardoqituv {
   width: 80%;
@@ -255,21 +260,23 @@ body {
 .cardoqituvtxt {
   position: absolute;
   margin-top: 50%;
-  background-color: rgb(182, 201, 201);
+  background-color: rgb(29, 35, 70);
   border-radius: 50%;
   height: 270px;
   width: 55%;
   padding: 10%;
   text-align: center;
-  border: 10px solid rgb(29, 35, 70);
+  border: 10px solid orangered;
   margin-left: 30%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 .cardoqituvtxt h1 {
   font-size: 21px;
+  color: #ffffff;
 }
 .cardoqituvtxt p {
   font-size: 20px;
+  color: #ffffff;
 }
 
 .boglanish {

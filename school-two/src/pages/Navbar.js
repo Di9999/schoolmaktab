@@ -27,7 +27,7 @@ export default class Navbar extends Component {
             <a href="#">Maktab a'lochilari</a>
           </li>
           <li>
-            <a href="#">Maktab hayoti</a>
+            <a href="#">Maktab ma'lumoti</a>
           </li>
         </ul>
       </div>
