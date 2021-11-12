@@ -31,7 +31,9 @@ export default class Boshsahifa extends Component {
       <div>
         <Navbar />
         <div className={style.header}>
-          <h1>BIZNING MAKTABIMIZGA XUSH KELIBSIZ!</h1>
+          <div className={style.headertxt}>
+            <h1>BIZNING MAKTABIMIZGA XUSH KELIBSIZ!</h1>
+          </div>
         </div>
         {/* <Container>
           <div className={style.header}>
@@ -107,7 +109,7 @@ export default class Boshsahifa extends Component {
         <br />
         <div className={style.qabulgl}>
           <Col>
-            <div className={style.qabul}>
+            <div className={style.qabul} id="qabul">
               <div className={style.qabulimg}>
                 <Image style={{ width: "100%" }} src={registr} />
               </div>
@@ -290,7 +292,7 @@ export default class Boshsahifa extends Component {
           <br />
         </div>
         <div className="sliderHomiy" style={{ backgroundColor: "white" }}>
-          {/* <Carousel
+          <Carousel
             responsive={responsive1}
             autoPlay={this.props.deviceType !== "mobile" ? true : false}
             autoPlaySpeed={3000}
@@ -374,10 +376,10 @@ export default class Boshsahifa extends Component {
               </div>
               <p>IT Tower firmasi </p>
             </div>
-          </Carousel> */}
+          </Carousel>
         </div>{" "}
         <br /> <br />
-        <div className={style.alochilar}>
+        <div className={style.alochilar} id="alochilar">
           <Row>
             <Col lg={12}>
               <br />
@@ -445,7 +447,7 @@ export default class Boshsahifa extends Component {
         <br /> <br /> <br /> <br /> <br /> <br />
         <br /> <br /> <br /> <br /> <br /> <br />
         <br /> <br /> <br /> <br /> <br /> <br />
-        <div className={style.xarita}>
+        <div className={style.xarita} id="manzil">
           <br />
           <h1 className={style.sarlavha}> Bizning manzilimiz</h1>
           <br />
@@ -483,7 +485,6 @@ export default class Boshsahifa extends Component {
             </div>
           </YMaps>
         </div>
-        <br /> <br />
         <Footer />
       </div>
     );

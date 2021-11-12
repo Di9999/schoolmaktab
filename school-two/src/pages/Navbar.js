@@ -12,10 +12,10 @@ export default class Navbar extends Component {
             <a href="#">Bosh sahifa</a>{" "}
           </li>
           <li>
-            <a href="#">Qabul</a>
+            <a href="#qabul">Qabul</a>
           </li>
           <li>
-            <a href="#">Darsliklar</a>
+            <a href="#dars">Darsliklar</a>
           </li>
           <li>
             <a href="#">Yangiliklar</a>
@@ -24,10 +24,10 @@ export default class Navbar extends Component {
             <a href="#">Maktab hayoti</a>
           </li>
           <li>
-            <a href="#">Maktab a'lochilari</a>
+            <a href="#alochilar">Maktab a'lochilari</a>
           </li>
           <li>
-            <a href="#">Maktab ma'lumoti</a>
+            <a href="#manzil">Maktab manzili</a>
           </li>
         </ul>
       </div>

@@ -25,7 +25,7 @@ export default class Darsliklar extends Component {
   render() {
     return (
       <div>
-        <section style={{ padding: "30px" }}>
+        <section style={{ padding: "30px" }} id="dars">
           {/* <h1>Darsliklar</h1> */}
           <h1 className={style.sarlavha1}>Darsliklar</h1>
           <Tabs defaultActiveKey="1" size="40px">
