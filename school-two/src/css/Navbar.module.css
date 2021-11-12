@@ -1,24 +1,19 @@
-.navcontainer * {
-  color: rgb(23, 7, 66);
-}
 .navcontainer ul {
   list-style: none;
   display: flex;
   margin: 0;
+  background-color: rgb(23, 7, 66);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .navcontainer li {
   padding: 2%;
   font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 2%;
   font-weight: 500;
 }
-
-.container2 {
-  background-color: #1c1b3b;
-  width: 100%;
-  padding: 20px 50px;
-}
-.container2 h1 {
-  color: grey;
-  font-size: 1.3rem;
-  display: flex;
+.navcontainer li a {
+  color: rgb(172, 48, 48);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }

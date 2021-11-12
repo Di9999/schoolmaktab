@@ -7,13 +7,28 @@ export default class Navbar extends Component {
     return (
       <div className={style.navcontainer}>
         <ul>
-          <li>Bosh sahifa</li>
-          <li>Qabul</li>
-          <li>Darsliklar</li>
-          <li>Yangiliklar</li>
-          <li>Maktab hayoti</li>
-          <li>Maktab a'lochilari</li>
-          <li>Maktab hayoti</li>
+          <li>
+            {" "}
+            <a href="#">Bosh sahifa</a>{" "}
+          </li>
+          <li>
+            <a href="#">Qabul</a>
+          </li>
+          <li>
+            <a href="#">Darsliklar</a>
+          </li>
+          <li>
+            <a href="#">Yangiliklar</a>
+          </li>
+          <li>
+            <a href="#">Maktab hayoti</a>
+          </li>
+          <li>
+            <a href="#">Maktab a'lochilari</a>
+          </li>
+          <li>
+            <a href="#">Maktab hayoti</a>
+          </li>
         </ul>
       </div>
     );
