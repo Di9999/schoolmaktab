@@ -1,20 +1,21 @@
-// import React, { Component } from "react";
-// import Navbar from "react-bootstrap/Navbar";
-// export default class Navbar extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <Navbar bg="dark" variant="dark">
-//           <Container>
-//             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-//             <Nav className="me-auto">
-//               <Nav.Link href="#home">Home</Nav.Link>
-//               <Nav.Link href="#features">Features</Nav.Link>
-//               <Nav.Link href="#pricing">Pricing</Nav.Link>
-//             </Nav>
-//           </Container>
-//         </Navbar>
-//       </div>
-//     );
-//   }
-// }
+import React, { Component } from "react";
+import { Col, Row } from "react-bootstrap";
+import style from "../css/Navbar.module.css";
+
+export default class Navbar extends Component {
+  render() {
+    return (
+      <div className={style.navcontainer}>
+        <ul>
+          <li>Bosh sahifa</li>
+          <li>Qabul</li>
+          <li>Darsliklar</li>
+          <li>Yangiliklar</li>
+          <li>Maktab hayoti</li>
+          <li>Maktab a'lochilari</li>
+          <li>Maktab hayoti</li>
+        </ul>
+      </div>
+    );
+  }
+}

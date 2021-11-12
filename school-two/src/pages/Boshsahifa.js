@@ -29,6 +29,7 @@ export default class Boshsahifa extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <div className={style.header}>
           <h1>BIZNING MAKTABIMIZGA XUSH KELIBSIZ!</h1>
         </div>
