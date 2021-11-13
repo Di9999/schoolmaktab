@@ -168,6 +168,225 @@ export default class Boshsahifa extends Component {
         <br />
         <br />
         <Darsliklar />
+        <Router>
+          {/* Asosiy qism */}
+
+          <Link to="/toke2">Expenses</Link>
+          <div id="home" className={style.asosiy}>
+            <div className={style.rahbar}>
+              <div className={style.oyna}>
+                <Routes>
+                  {" "}
+                  <Route
+                    path="/"
+                    element={
+                      <div>
+                        <img
+                          alt=" "
+                          src="https://telegra.ph/file/37c9140e82eba1db37cb4.jpg"
+                        />
+                        <h1>Inson haddan tashqari ko‘p </h1>
+                        <h3>
+                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
+                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
+                          fikrini bayon qilishiga imkon beradi, chunki u uchun
+                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
+                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
+                          anglab yetishga yordam beradigan qiziq savollar
+                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
+                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
+                          bajarishingiz uchun nima kerak bo‘ladi?
+                        </h3>
+                      </div>
+                    }
+                  />
+                  <Route
+                    path="toke1"
+                    element={
+                      <div>
+                        <img
+                          alt=" "
+                          src="https://www.uzedu.uz/uploads/2020/03/img2567-760x500.jpg"
+                        />
+                        <h1>
+                          Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                        </h1>
+                        <h3>
+                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
+                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
+                          fikrini bayon qilishiga imkon beradi, chunki u uchun
+                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
+                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
+                          anglab yetishga yordam beradigan qiziq savollar
+                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
+                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
+                          bajarishingiz uchun nima kerak bo‘ladi?
+                        </h3>
+                      </div>
+                    }
+                  />
+                  <Route
+                    path="toke2"
+                    element={
+                      <div>
+                        <img
+                          alt=" "
+                          src="https://baxtiyor.uz/wp-content/uploads/2020/09/itsga-rahbar-tayinlandi.jpg"
+                        />
+                        <h1>Jizzax xalq hokimiyati </h1>
+                        <h3>
+                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
+                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
+                          fikrini bayon qilishiga imkon beradi, chunki u uchun
+                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
+                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
+                          anglab yetishga yordam beradigan qiziq savollar
+                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
+                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
+                          bajarishingiz uchun nima kerak bo‘ladi?
+                        </h3>
+                      </div>
+                    }
+                  />
+                </Routes>{" "}
+              </div>
+            </div>
+
+            <div className={style.yangili}>
+              <div style={{ paddingBottom: "10px" }} className={style.yangilik}>
+                <h1>Yangiliklar</h1>
+                <Accordion style={{ marginLeft: "10px" }} defaultActiveKey="0">
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item>
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link to="/toke1" style={{ color: "blue" }}>
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link style={{ color: "blue" }} to="/toke2">
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="4">
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link style={{ color: "blue" }} to="/toke2">
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="5">
+                    <Accordion.Header className={style.accordionheader}>
+                      Jizzax xalq hokimiyati
+                    </Accordion.Header>
+                    <Accordion.Body className={style.accordionbody}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                      <Link style={{ color: "blue" }} to="/toke2">
+                        Batafsil
+                      </Link>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+            </div>
+          </div>
+        </Router>
         <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
         <div className={style.avtobusgl}>
           <Col>
@@ -553,225 +772,6 @@ export default class Boshsahifa extends Component {
           </YMaps>
         </div>
         <Footer />
-        <Router>
-          {/* Asosiy qism */}
-
-          <Link to="/toke2">Expenses</Link>
-          <div id="home" className={style.asosiy}>
-            <div className={style.rahbar}>
-              <div className={style.oyna}>
-                <Routes>
-                  {" "}
-                  <Route
-                    path="/"
-                    element={
-                      <div>
-                        <img
-                          alt=" "
-                          src="https://telegra.ph/file/37c9140e82eba1db37cb4.jpg"
-                        />
-                        <h1>Inson haddan tashqari ko‘p </h1>
-                        <h3>
-                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
-                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
-                          fikrini bayon qilishiga imkon beradi, chunki u uchun
-                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
-                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
-                          anglab yetishga yordam beradigan qiziq savollar
-                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
-                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
-                          bajarishingiz uchun nima kerak bo‘ladi?
-                        </h3>
-                      </div>
-                    }
-                  />
-                  <Route
-                    path="toke1"
-                    element={
-                      <div>
-                        <img
-                          alt=" "
-                          src="https://www.uzedu.uz/uploads/2020/03/img2567-760x500.jpg"
-                        />
-                        <h1>
-                          Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
-                        </h1>
-                        <h3>
-                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
-                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
-                          fikrini bayon qilishiga imkon beradi, chunki u uchun
-                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
-                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
-                          anglab yetishga yordam beradigan qiziq savollar
-                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
-                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
-                          bajarishingiz uchun nima kerak bo‘ladi?
-                        </h3>
-                      </div>
-                    }
-                  />
-                  <Route
-                    path="toke2"
-                    element={
-                      <div>
-                        <img
-                          alt=" "
-                          src="https://baxtiyor.uz/wp-content/uploads/2020/09/itsga-rahbar-tayinlandi.jpg"
-                        />
-                        <h1>Jizzax xalq hokimiyati </h1>
-                        <h3>
-                          gapirsa, bu uning o‘ziga ishonmasligidan dalolat
-                          berishi ham mumkin. Yaxshi rahbar o‘z xodimining
-                          fikrini bayon qilishiga imkon beradi, chunki u uchun
-                          xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni
-                          o‘ylashga undaydigan va ishning mohiyatini chuqurroq
-                          anglab yetishga yordam beradigan qiziq savollar
-                          beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi?
-                          Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi
-                          bajarishingiz uchun nima kerak bo‘ladi?
-                        </h3>
-                      </div>
-                    }
-                  />
-                </Routes>{" "}
-              </div>
-            </div>
-
-            <div className={style.yangili}>
-              <div style={{ paddingBottom: "10px" }} className={style.yangilik}>
-                <h1>Yangiliklar</h1>
-                <Accordion style={{ marginLeft: "10px" }} defaultActiveKey="0">
-                  <Accordion.Item>
-                    <Accordion.Header className={style.accordionheader}>
-                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
-                    </Accordion.Header>
-                    <Accordion.Body className={style.accordionbody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                      <Link to="/toke1" style={{ color: "blue" }}>
-                        Batafsil
-                      </Link>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item>
-                    <Accordion.Header className={style.accordionheader}>
-                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
-                    </Accordion.Header>
-                    <Accordion.Body className={style.accordionbody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                      <Link to="/toke1" style={{ color: "blue" }}>
-                        Batafsil
-                      </Link>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item>
-                    <Accordion.Header className={style.accordionheader}>
-                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
-                    </Accordion.Header>
-                    <Accordion.Body className={style.accordionbody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                      <Link to="/toke1" style={{ color: "blue" }}>
-                        Batafsil
-                      </Link>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item>
-                    <Accordion.Header className={style.accordionheader}>
-                      Jizzax xalq hokimiyati yangi tizim ishlab chiqdi{" "}
-                    </Accordion.Header>
-                    <Accordion.Body className={style.accordionbody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                      <Link to="/toke1" style={{ color: "blue" }}>
-                        Batafsil
-                      </Link>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="2">
-                    <Accordion.Header className={style.accordionheader}>
-                      Jizzax xalq hokimiyati
-                    </Accordion.Header>
-                    <Accordion.Body className={style.accordionbody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                      <Link style={{ color: "blue" }} to="/toke2">
-                        Batafsil
-                      </Link>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="4">
-                    <Accordion.Header className={style.accordionheader}>
-                      Jizzax xalq hokimiyati
-                    </Accordion.Header>
-                    <Accordion.Body className={style.accordionbody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                      <Link style={{ color: "blue" }} to="/toke2">
-                        Batafsil
-                      </Link>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="5">
-                    <Accordion.Header className={style.accordionheader}>
-                      Jizzax xalq hokimiyati
-                    </Accordion.Header>
-                    <Accordion.Body className={style.accordionbody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                      <Link style={{ color: "blue" }} to="/toke2">
-                        Batafsil
-                      </Link>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-              </div>
-            </div>
-          </div>
-        </Router>
       </div>
     );
   }
