@@ -18,7 +18,7 @@ export default class Navbar extends Component {
             <a href="#dars">Darsliklar</a>
           </li>
           <li>
-            <a href="#">Yangiliklar</a>
+            <a href="#yangiliklar">Yangiliklar</a>
           </li>
           <li>
             <a href="#">Maktab hayoti</a>

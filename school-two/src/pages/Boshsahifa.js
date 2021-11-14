@@ -170,9 +170,7 @@ export default class Boshsahifa extends Component {
         <Darsliklar />
         <Router>
           {/* Asosiy qism */}
-
-          <Link to="/toke2">Expenses</Link>
-          <div id="home" className={style.asosiy}>
+          <div id="home" className={style.asosiy} id="yangiliklar">
             <div className={style.rahbar}>
               <div className={style.oyna}>
                 <Routes>
@@ -180,7 +178,7 @@ export default class Boshsahifa extends Component {
                   <Route
                     path="/"
                     element={
-                      <div>
+                      <div className={style.yangilitxt}>
                         <img
                           alt=" "
                           src="https://telegra.ph/file/37c9140e82eba1db37cb4.jpg"
@@ -229,6 +227,7 @@ export default class Boshsahifa extends Component {
                     path="toke2"
                     element={
                       <div>
+                        <br />
                         <img
                           alt=" "
                           src="https://baxtiyor.uz/wp-content/uploads/2020/09/itsga-rahbar-tayinlandi.jpg"
