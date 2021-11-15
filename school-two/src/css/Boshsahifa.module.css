@@ -2,7 +2,7 @@ body {
   background-color: rgb(243, 239, 239);
 }
 .header {
-  height: 650px;
+  height: 730px;
   /* background-color: rgb(206, 201, 211); */
   background-image: url(../img/maktab2.jpeg);
   background-repeat: no-repeat;
@@ -14,8 +14,8 @@ body {
   background-color: rgba(19, 47, 99, 0.425);
   color: white;
   width: 100%;
-  height: 650px;
-  padding-top: 15%;
+  height: 730px;
+  padding-top: 21%;
   font-weight: 700;
 }
 .orange {
@@ -455,9 +455,9 @@ body {
 }
 
 .accordionbody {
-  color: #ffffff;
+  color: #000000;
   font-size: 18px;
-  background-color: rgba(255, 68, 0, 0.932);
+  background-color: rgba(146, 138, 255, 0.582);
 }
 
 @media (max-width: 1440px) {

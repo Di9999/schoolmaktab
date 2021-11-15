@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import { Col, Row } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import style from "../css/Navbar.module.css";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div className={style.navcontainer}>
+        {" "}
         <ul>
           <li>
             {" "}
-            <a href="#">Bosh sahifa</a>{" "}
+            <NavLink to={`/`}>Bosh sahifa</NavLink>{" "}
           </li>
           <li>
             <a href="#qabul">Qabul</a>
@@ -21,7 +23,7 @@ export default class Navbar extends Component {
             <a href="#yangiliklar">Yangiliklar</a>
           </li>
           <li>
-            <a href="#">Maktab hayoti</a>
+            <NavLink to={`/maktabhayoti`}>Maktab hayoti</NavLink>
           </li>
           <li>
             <a href="#alochilar">Maktab a'lochilari</a>
