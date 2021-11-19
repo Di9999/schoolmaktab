@@ -477,3 +477,37 @@ body {
     height: 550px;
   }
 }
+
+.foto {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+.foto img {
+  height: 350px;
+  border-radius: 50%;
+  width: 350px;
+  border: 10px solid orangered;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.foto img:hover {
+  border: 10px solid rgb(29, 35, 70);
+}
+.cardhayot {
+  padding: 5%;
+}
+.fotobutton button {
+  background-color: rgb(29, 35, 70);
+  width: 20%;
+  height: 50px;
+  margin-left: 80%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.fotobutton button a {
+  color: orangered;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.fotobutton button:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}

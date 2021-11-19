@@ -31,6 +31,13 @@ import her4 from "../img/h4.jpg";
 import her5 from "../img/h5.png";
 import her6 from "../img/h6.png";
 import school from "../img/gerb.jpg";
+import hayot4 from "../img/hayot4.jpg";
+import hayot2 from "../img/hayot2.jpg";
+import hayot3 from "../img/hayot3.jpg";
+import hayot5 from "../img/hayot5.jpg";
+import hayot6 from "../img/hayot6.JPG";
+import hayot7 from "../img/hayot3.jpg";
+import hayot1 from "../img/makhayoti9.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 export default class Boshsahifa extends Component {
@@ -532,6 +539,65 @@ export default class Boshsahifa extends Component {
           <br />
         </div>
         <br />
+        <br />
+        <br />
+        <br />
+        <div className={style.foto}>
+          <Row>
+            <Col lg={12}>
+              <h1 className={style.sarlavha1}>Fotolavhalar</h1>
+              <br />
+              <br />
+              <Row>
+                <Col lg={4} md={6} sm={12} className={style.cardHayot}>
+                  <div className={style.cardhayot}>
+                    <img alt=" " src={hayot4} />
+                  </div>
+                </Col>
+                <Col lg={4} md={6} sm={12} className={style.cardHayot}>
+                  <div className={style.cardhayot}>
+                    <img alt=" " src={hayot2} />
+                  </div>
+                </Col>
+
+                <Col lg={4} md={6} sm={12} className={style.cardHayot}>
+                  <div className={style.cardhayot}>
+                    <img alt=" " src={hayot3} />
+                  </div>
+                </Col>
+                <Col lg={4} md={6} sm={12} className={style.cardHayot}>
+                  <div className={style.cardhayot}>
+                    <img alt=" " src={hayot5} />
+                  </div>
+                </Col>
+                <Col lg={4} md={6} sm={12} className={style.cardHayot}>
+                  <div className={style.cardhayot}>
+                    <img alt=" " src={hayot6} />
+                  </div>
+                </Col>
+                <Col lg={4} md={6} sm={12} className={style.cardHayot}>
+                  <div className={style.cardhayot}>
+                    <img alt=" " src={hayot1} />
+                  </div>
+                </Col>
+              </Row>
+              <br />
+              <div className={style.fotobutton}>
+                <button className="btn drawBorder">
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href="maktabhayoti"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Barchasini ko'rish
+                  </a>
+                </button>
+              </div>
+              <br />
+            </Col>
+          </Row>
+        </div>
         <br />
         <br />
         <br />

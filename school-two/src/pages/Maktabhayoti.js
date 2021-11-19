@@ -22,13 +22,13 @@ import Footer from "./Footer";
 export default class Maktabhayoti extends Component {
   render() {
     return (
-      <div>
+      <div className={style.hayotgl} id="maktabhayoti">
         <Navbar />
         <div className={style.cardinfo}>
           <Row>
             <Col lg={12}>
               <br />
-              <h1 className={style.sarlavha1}>Biz haqimizda</h1>
+              <h1 className={style.sarlavha1}>Fotolavhalar</h1>
               <br />
             </Col>
             <Col lg={4} md={6} sm={12} className={style.cardHayot}>
@@ -120,10 +120,14 @@ export default class Maktabhayoti extends Component {
             <Col lg={4} md={6} sm={12} className={style.cardHayot}>
               <div className={style.cardnumber}>
                 <img alt=" " src={maktabhayoti9} />
-              </div>
+              </div>{" "}
+              <br />
             </Col>
           </Row>
         </div>
+        <br />
+        <br />
+        <br />
         <Footer />
       </div>
     );
