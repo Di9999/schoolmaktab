@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import "react-multi-carousel/lib/styles.css";
 import { Clusterer, Map, Placemark, YMaps } from "react-yandex-maps";
 import Carousel from "react-multi-carousel";
+// import Carousel from "react-bootstrap/Carousel";
 import oshxona1 from "../img/oshxona1.jpg";
 import sport from "../img/sport2.jpeg";
 import musiqa from "../img/musiqa2.jpg";
@@ -24,7 +25,8 @@ import Darsliklar from "./Darsliklar";
 // import { NavLink } from "react-router-dom";
 import { FaTelegram, FaFacebook } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import { AiFillYoutube } from "react-icons/ai";
+import { BsTelephoneFill } from "react-icons/bs";
+import { AiFillYoutube, AiTwotoneMail } from "react-icons/ai";
 import her2 from "../img/h2.jpg";
 import her3 from "../img/h3.jpg";
 import her4 from "../img/h4.jpg";
@@ -85,40 +87,6 @@ export default class Boshsahifa extends Component {
         <br />
         <br />
         <br />
-        <Container>
-          {/* <Row className={`${style.orange} `}>
-            <div>
-              <Col md={6} lg={6}>
-                <div className={style.orangeImg}>
-                </div>
-              </Col>
-
-              <Col xs={12} sm={12} md={6} lg={6}>
-                <div className={style.orangeText}>
-                  <h2>Motivating Ways to Improve Your Skills</h2>
-                  <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt.
-                  </p>
-                </div>
-                <div className={style.orangeBtn}>
-                  <button className="btn drawBorder">
-                    <a
-                      style={{ textDecoration: "none" }}
-                      href="https://my.maktab.uz/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Nmadir
-                    </a>
-                  </button>
-                </div>
-              </Col>
-            </div>
-          </Row> */}
-        </Container>
         <Col>
           <div className={style.prezident}>
             <div className={style.prezidenttext}>
@@ -132,6 +100,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.prezidentimg}>
               <Image src={prezident} className={style.secondImage} />
+              <div id="qabul"></div>
             </div>
           </div>
         </Col>
@@ -142,7 +111,7 @@ export default class Boshsahifa extends Component {
         <br />
         <div className={style.qabulgl}>
           <Col>
-            <div className={style.qabul} id="qabul">
+            <div className={style.qabul}>
               <div className={style.qabulimg}>
                 <Image style={{ width: "100%" }} src={registr} />
               </div>
@@ -170,13 +139,14 @@ export default class Boshsahifa extends Component {
               </div>
             </div>
           </Col>
+          <div id="dars"></div>
         </div>
         <br /> <br />
         <br />
         <br />
         <Darsliklar />
         {/* Asosiy qism */}
-        <div id="home" className={style.asosiy} id="yangiliklar">
+        <div id="home" className={style.asosiy}>
           <div className={style.rahbar}>
             <div className={style.oyna}>
               <Routes>
@@ -526,6 +496,7 @@ export default class Boshsahifa extends Component {
                 <FiInstagram className={style.relations} />
                 <pr>Instagram sahifasi</pr>
               </p>
+
               <p>
                 <FaFacebook className={style.relations} />
                 <pr>Facebook sahifasi </pr>
@@ -533,6 +504,14 @@ export default class Boshsahifa extends Component {
               <p>
                 <AiFillYoutube className={style.relations} />
                 <pr>YouTube sahifasi</pr>
+              </p>
+              <p>
+                <AiTwotoneMail className={style.relations} />
+                <pr>Email adresi</pr>
+              </p>
+              <p>
+                <BsTelephoneFill className={style.relations} />
+                <pr>Telefon raqami</pr>
               </p>
             </Col>
           </div>{" "}
@@ -722,11 +701,56 @@ export default class Boshsahifa extends Component {
                 </a>
               </div>
               <p>IT Tower firmasi </p>
+              <div id="alochilar"></div>
             </div>
           </Carousel>
         </div>
         <br /> <br />
-        <div className={style.alochilar} id="alochilar">
+        <div>
+          {/* <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="holder.js/800x400?text=First slide&bg=373940"
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="holder.js/800x400?text=Second slide&bg=282c34"
+                alt="Second slide"
+              />
+
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="holder.js/800x400?text=Third slide&bg=20232a"
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel> */}
+        </div>
+        <div className={style.alochilar}>
           <Row>
             <Col lg={12}>
               <br />
@@ -793,12 +817,14 @@ export default class Boshsahifa extends Component {
         <br /> <br /> <br /> <br /> <br /> <br />
         <br /> <br /> <br /> <br /> <br /> <br />
         <br /> <br /> <br /> <br /> <br /> <br />
-        <br /> <br /> <br /> <br /> <br /> <br />
-        <div className={style.xarita} id="manzil">
+        <br /> <br /> <div id="manzil"></div>
+        <br />
+        <br /> <br />
+        <br />
+        <div className={style.xarita}>
           <br />
           <h1 className={style.sarlavha}> Bizning manzilimiz</h1>
           <br />
-
           <YMaps>
             <div className={style.manzilmap}>
               <Map
