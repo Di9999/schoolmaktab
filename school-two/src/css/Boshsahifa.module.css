@@ -374,6 +374,7 @@ body {
     margin-top: 110px;
     display: flex;
   }
+
   .oyna img {
     margin: auto;
 
@@ -443,6 +444,7 @@ body {
   margin-bottom: 0%;
 }
 .yangilik {
+  margin-top: 5%;
   height: 750px;
   overflow-y: scroll;
 }

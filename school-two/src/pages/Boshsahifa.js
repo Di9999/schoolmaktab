@@ -146,6 +146,9 @@ export default class Boshsahifa extends Component {
         <br />
         <Darsliklar />
         {/* Asosiy qism */}
+        <br />
+        <br />
+        <h1 className={style.sarlavha1}>Yangiliklar</h1>
         <div id="home" className={style.asosiy}>
           <div className={style.rahbar}>
             <div className={style.oyna}>
@@ -227,7 +230,9 @@ export default class Boshsahifa extends Component {
 
           <div className={style.yangili}>
             <div style={{ paddingBottom: "10px" }} className={style.yangilik}>
-              <h1>Yangiliklar</h1>
+              {/* <h1>Yangiliklar</h1> */}
+              <br />
+
               <Accordion style={{ marginLeft: "10px" }} defaultActiveKey="0">
                 <Accordion.Item>
                   <Accordion.Header className={style.accordionheader}>
