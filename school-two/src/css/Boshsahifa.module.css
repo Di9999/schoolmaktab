@@ -214,7 +214,7 @@ body {
 .cardalochilarimg {
   width: 80%;
   position: absolute;
-  height: 390px;
+  height: 400px;
 }
 .cardalochilarimg img {
   width: 100%;
@@ -513,4 +513,113 @@ body {
 }
 .fotobutton button:hover {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  .qabultext {
+    width: 100%;
+    background-color: orangered;
+    /* height: 700px; */
+    margin-left: -10%;
+  }
+
+  .qabul {
+    width: 100%;
+    display: block;
+  }
+  .qabulimg img {
+    width: 100%;
+    margin-left: -12%;
+  }
+  .qabulimg {
+    width: 100%;
+    height: auto;
+  }
+  .qabultext p {
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .qabultext h2 {
+    font-size: 18px;
+    color: #ffffff !important;
+  }
+  .qabulBtn button {
+    width: 70%;
+    height: 50px;
+  }
+  .qabulBtn button a {
+    font-size: 15px;
+  }
+  .header {
+    height: 700px;
+    background-size: 190% 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .headertxt h1 {
+    width: 100%;
+    height: 700px;
+    padding-top: 85%;
+    font-weight: 700;
+  }
+
+  .avtobus {
+    width: 100%;
+    display: block;
+    margin-left: 10%;
+  }
+  .prezident {
+    width: 100%;
+    display: block;
+  }
+  .prezidenttext {
+    width: 100%;
+    height: 200px;
+    margin-top: 80%;
+    margin-left: -10%;
+  }
+  .prezidentimg {
+    margin-top: -128%;
+  }
+  .prezidentimg img {
+    width: 78%;
+    height: 310px;
+    margin-left: 1%;
+  }
+
+  .prezidenttext h2 {
+    font-size: 18px;
+    margin: 6%;
+  }
+  .prezidenttext h3 {
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: -3%;
+  }
+  .avtobustext {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: -10%;
+    background-color: rgb(29, 35, 70);
+  }
+  .avtobusimg img {
+    width: 150%;
+    margin-left: -10%;
+    height: 350px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+  }
+  .avtobusimg {
+    width: 62%;
+    height: auto;
+  }
+  .avtobustext p {
+    font-size: 18px;
+  }
+}
+
+.caruselAl {
+  height: 560px;
+  width: 100%;
+  position: relative;
+  margin-left: 7%;
 }

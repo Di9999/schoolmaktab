@@ -40,8 +40,16 @@ import hayot5 from "../img/hayot5.jpg";
 import hayot6 from "../img/hayot6.JPG";
 import hayot7 from "../img/hayot3.jpg";
 import hayot1 from "../img/makhayoti9.jpg";
+import al1 from "../img/al1.jpg";
+import al2 from "../img/al2.jpg";
+import al3 from "../img/al3.jpg";
+import al4 from "../img/al4.jpg";
+import al5 from "../img/al5.jpg";
+import al6 from "../img/al6.jpg";
+import al7 from "../img/al7.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 export default class Boshsahifa extends Component {
   render() {
     const responsive = {
@@ -62,6 +70,24 @@ export default class Boshsahifa extends Component {
         items: 2,
       },
     };
+    const responsive1 = {
+      desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+        slidesToSlide: 1, // optional, default to 1.
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+        slidesToSlide: 1, // optional, default to 1.
+      },
+      mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+        slidesToSlide: 1, // optional, default to 1.
+      },
+    };
+
     return (
       <div>
         <Navbar />
@@ -756,8 +782,66 @@ export default class Boshsahifa extends Component {
           </Carousel> */}
         </div>
         <div className={style.alochilar}>
+          <h1 className={style.sarlavha1}>A'lochilar doskasi</h1>
+          <br /> <br />
+          <Carousel
+            responsive={responsive1}
+            infinite={true}
+            autoPlay={this.props.deviceType !== "mobile" ? true : false}
+            autoPlaySpeed={1000}
+            customTransition="all .5"
+            transitionDuration={500}
+            showDots={true}
+          >
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al1} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Mardonov Bahrom
+                  <br /> Davron o'g'li
+                </h1>
+                <p>8 - "D" sinf</p>
+              </div>
+            </div>
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al3} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Bahromov Abduxalil <br /> Abror o'g'li
+                </h1>
+                <p>8 - "D" sinf</p>
+              </div>
+            </div>
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al2} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Mardonov Bahrom
+                  <br /> Davron o'g'li
+                </h1>
+                <p>8 - "D" sinf</p>
+              </div>
+            </div>
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al4} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Bahromov Abduxalil <br /> Abror o'g'li
+                </h1>
+                <p>8 - "D" sinf</p>
+              </div>
+            </div>
+          </Carousel>
           <Row>
-            <Col lg={12}>
+            {/* <Col lg={12}>
               <br />
               <h1 className={style.sarlavha1}>A'lochilar doskasi</h1>
               <br />
@@ -784,12 +868,9 @@ export default class Boshsahifa extends Component {
                 </h1>
                 <p>8 - "D" sinf</p>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
-        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-        <br /> <br /> <br /> <br />
         <br /> <br /> <br /> <br />
         <div className={style.oqituvchi}>
           <Row>
