@@ -872,9 +872,76 @@ export default class Boshsahifa extends Component {
           </Row>
         </div>
         <br /> <br /> <br /> <br />
+        <br /> <br />
         <div className={style.oqituvchi}>
+          <h1 className={style.sarlavha1}>O'qituvchilar doskasi</h1> <br />{" "}
+          <br />
+          <Carousel
+            responsive={responsive1}
+            infinite={true}
+            autoPlay={this.props.deviceType !== "mobile" ? true : false}
+            autoPlaySpeed={1000}
+            customTransition="all .5"
+            transitionDuration={500}
+            showDots={true}
+          >
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz1} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Tosheva Gavhar Umarovna</h1>
+                <p>Matematika fani o'qituvchisi</p>
+              </div>
+            </div>
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz1} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Tosheva Gavhar Umarovna</h1>
+                <p>Matematika fani o'qituvchisi</p>
+              </div>
+            </div>
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz1} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Tosheva Gavhar Umarovna</h1>
+                <p>Matematika fani o'qituvchisi</p>
+              </div>
+            </div>
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz1} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Tosheva Gavhar Umarovna</h1>
+                <p>Matematika fani o'qituvchisi</p>
+              </div>
+            </div>
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz2} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Ravshanova Mamlakat Sulaymonovna</h1>
+                <p>Rus tili filologiya o'qituvchi</p>
+              </div>
+            </div>
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz2} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Ravshanova Mamlakat Sulaymonovna</h1>
+                <p>Rus tili filologiya o'qituvchi</p>
+              </div>
+            </div>
+          </Carousel>
           <Row>
-            <Col lg={12}>
+            {/* <Col lg={12}>
               <br />
               <h1 className={style.sarlavha1}>O'qituvchilar doskasi</h1>
               <br />
@@ -896,13 +963,10 @@ export default class Boshsahifa extends Component {
                 <h1>Ravshanova Mamlakat Sulaymonovna</h1>
                 <p>Rus tili filologiya o'qituvchi</p>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
-        <br /> <br /> <br /> <br /> <br /> <br />
-        <br /> <br /> <br /> <br /> <br /> <br />
-        <br /> <br /> <br /> <br /> <br /> <br />
-        <br /> <br /> <br /> <br /> <br /> <br />
+        <br />
         <br /> <br /> <div id="manzil"></div>
         <br />
         <br /> <br />
