@@ -40,13 +40,13 @@ import hayot5 from "../img/hayot5.jpg";
 import hayot6 from "../img/hayot6.JPG";
 import hayot7 from "../img/hayot3.jpg";
 import hayot1 from "../img/makhayoti9.jpg";
-import al1 from "../img/al1.jpg";
-import al2 from "../img/al2.jpg";
-import al3 from "../img/al3.jpg";
-import al4 from "../img/al4.jpg";
-import al5 from "../img/al5.jpg";
-import al6 from "../img/al6.jpg";
-import al7 from "../img/al7.jpg";
+import al1 from "../img/uch1.jpg";
+import al2 from "../img/uch8.jpeg";
+import al3 from "../img/uch3.jpg";
+import al4 from "../img/uch6.jpg";
+import al5 from "../img/uch11.jpg";
+import al6 from "../img/uch10.jpg";
+import al7 from "../img/uch12.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -519,7 +519,7 @@ export default class Boshsahifa extends Component {
               <p>
                 <FaTelegram
                   className={style.relations}
-                  style={{ marginLeft: "5%" }}
+                  // style={{ marginLeft: "5%" }}
                 />
                 <pr>Telegram sahifasi</pr>
               </p>
@@ -799,15 +799,62 @@ export default class Boshsahifa extends Component {
               </div>
               <div className={style.cardalochilartxt}>
                 <h1>
-                  Mardonov Bahrom
-                  <br /> Davron o'g'li
+                  Bakiyeva Kamola
+                  <br /> Akrom qizi
                 </h1>
-                <p>8 - "D" sinf</p>
+                <p>4 - "D" sinf</p>
               </div>
             </div>
             <div className={style.caruselAl}>
               <div className={style.cardalochilarimg}>
                 <img alt=" " src={al3} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Abduraxmonova Zaynab <br /> Bahrom qizi
+                </h1>
+                <p>6 - "D" sinf</p>
+              </div>
+            </div>
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al2} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Azizova Munisa
+                  <br /> Davron qizi
+                </h1>
+                <p>4 - "D" sinf</p>
+              </div>
+            </div>
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al6} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Solimova Aziza
+                  <br /> Abror qizi
+                </h1>
+                <p>5 - "A" sinf</p>
+              </div>
+            </div>
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al4} />
+              </div>
+              <div className={style.cardalochilartxt}>
+                <h1>
+                  Boburov Abror
+                  <br /> Davron o'g'li
+                </h1>
+                <p>3 - "B" sinf</p>
+              </div>
+            </div>
+            <div className={style.caruselAl}>
+              <div className={style.cardalochilarimg}>
+                <img alt=" " src={al5} />
               </div>
               <div className={style.cardalochilartxt}>
                 <h1>
@@ -818,19 +865,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.caruselAl}>
               <div className={style.cardalochilarimg}>
-                <img alt=" " src={al2} />
-              </div>
-              <div className={style.cardalochilartxt}>
-                <h1>
-                  Mardonov Bahrom
-                  <br /> Davron o'g'li
-                </h1>
-                <p>8 - "D" sinf</p>
-              </div>
-            </div>
-            <div className={style.caruselAl}>
-              <div className={style.cardalochilarimg}>
-                <img alt=" " src={al4} />
+                <img alt=" " src={al7} />
               </div>
               <div className={style.cardalochilartxt}>
                 <h1>
@@ -900,7 +935,7 @@ export default class Boshsahifa extends Component {
               </div>
               <div className={style.cardoqituvtxt}>
                 <h1>Tosheva Gavhar Umarovna</h1>
-                <p>Matematika fani o'qituvchisi</p>
+                <p>Fizika fani o'qituvchisi</p>
               </div>
             </div>
             <div className={style.caruselAl2}>
@@ -908,8 +943,8 @@ export default class Boshsahifa extends Component {
                 <img alt=" " src={ustoz1} />
               </div>
               <div className={style.cardoqituvtxt}>
-                <h1>Tosheva Gavhar Umarovna</h1>
-                <p>Matematika fani o'qituvchisi</p>
+                <h1>Azizova Dilobar Karimovna</h1>
+                <p>Tarix fani o'qituvchisi</p>
               </div>
             </div>
             <div className={style.caruselAl2}>
@@ -917,8 +952,8 @@ export default class Boshsahifa extends Component {
                 <img alt=" " src={ustoz1} />
               </div>
               <div className={style.cardoqituvtxt}>
-                <h1>Tosheva Gavhar Umarovna</h1>
-                <p>Matematika fani o'qituvchisi</p>
+                <h1>Karimova Zilola Akromovna</h1>
+                <p>Kimyo fani o'qituvchisi</p>
               </div>
             </div>
             <div className={style.caruselAl2}>
@@ -935,8 +970,26 @@ export default class Boshsahifa extends Component {
                 <img alt=" " src={ustoz2} />
               </div>
               <div className={style.cardoqituvtxt}>
-                <h1>Ravshanova Mamlakat Sulaymonovna</h1>
+                <h1>Boltayeva Nargiza Davronovna</h1>
                 <p>Rus tili filologiya o'qituvchi</p>
+              </div>
+            </div>
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz2} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Qurbonova Hilola Ravshanovna</h1>
+                <p>Biologiya o'qituvchi</p>
+              </div>
+            </div>
+            <div className={style.caruselAl2}>
+              <div className={style.cardoqituvimg}>
+                <img alt=" " src={ustoz2} />
+              </div>
+              <div className={style.cardoqituvtxt}>
+                <h1>Tursunova Manzura Dilmurodovna</h1>
+                <p>Geografiya o'qituvchi</p>
               </div>
             </div>
           </Carousel>
