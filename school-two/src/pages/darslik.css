@@ -123,6 +123,8 @@ details[open] > summary {
   align-items: center;
   text-align: center;
   width: 300px;
+  /* object-fit: cover;
+  height: 200px; */
 }
 .kart1 {
   box-shadow: rgb(0, 0, 255, 0.4) 5px 5px, rgba(0, 0, 255, 0.3) 10px 10px,

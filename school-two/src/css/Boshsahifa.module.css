@@ -62,12 +62,12 @@ body {
 }
 .sarlavha {
   color: white !important;
-  font-size: 40px !important;
+  font-size: 39px !important;
   text-align: center;
 }
 .sarlavha1 {
   color: rgb(23, 7, 66) !important;
-  font-size: 40px !important;
+  font-size: 39px !important;
   text-align: center;
 }
 .cardnumb {
@@ -536,14 +536,19 @@ body {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
+  .foto {
+    margin-left: 0%;
+  }
+} */
+
+@media screen and (max-width: 600px) {
   .qabultext {
     width: 100%;
     background-color: orangered;
     /* height: 700px; */
     margin-left: -10%;
   }
-
   .qabul {
     width: 100%;
     display: block;
@@ -587,7 +592,7 @@ body {
     margin-top: -45%;
   }
   .avtobus {
-    width: 100%;
+    width: 98%;
     display: block;
     margin-left: 10%;
   }
@@ -639,7 +644,7 @@ body {
     font-size: 18px;
   }
   .foto {
-    margin-left: 4%;
+    margin-left: 2%;
   }
   .fotobutton button {
     width: 200px;
@@ -659,17 +664,19 @@ body {
     object-fit: cover;
     width: 80%;
     position: absolute;
-    height: 350px;
+    height: 340px;
   }
   .cardalochilarimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20%;
   }
   .cardalochilartxt {
     margin-top: 60%;
-    height: 270px;
+    height: 260px;
     width: 63%;
+    border-radius: 20%;
     padding: 8%;
     margin-left: 20%;
   }
@@ -687,12 +694,14 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20%;
   }
   .cardoqituvtxt {
     margin-top: 50%;
     border-radius: 50%;
     height: 270px;
     width: 63%;
+    border-radius: 20%;
     padding: 8%;
     margin-left: 20%;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
@@ -706,13 +715,14 @@ body {
     margin-left: 5%;
   }
 }
-@media (max-width: 991px) {
+
+/* (min-width:601px and max-width: 991px) */
+@media screen and( max-width: 991px) {
   .qabultext {
     width: 100%;
     /* height: 700px; */
     margin-left: -10%;
   }
-
   .qabul {
     width: 100%;
     margin-top: 30%;
@@ -770,7 +780,6 @@ body {
     height: 450px;
     margin-left: 10%;
   }
-
   .prezidenttext h2 {
     font-size: 28px;
     margin: 6%;
@@ -848,6 +857,9 @@ body {
   }
   .xarita {
     margin-top: -3%;
+  }
+  .cardnumb {
+    height: 600px;
   }
   .avtobusgl {
     margin-top: 5%;

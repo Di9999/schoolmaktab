@@ -17,7 +17,7 @@ import hayot5 from "../img/hayot5.jpg";
 import hayot6 from "../img/hayot6.JPG";
 import hayot7 from "../img/hayot3.jpg";
 import style from "../css/Maktabhayoti.module.css";
-import Navbar from "./Navbar";
+import Navbar from "./NavbarH";
 import Footer from "./Footer";
 export default class Maktabhayoti extends Component {
   render() {
@@ -27,6 +27,8 @@ export default class Maktabhayoti extends Component {
         <div className={style.cardinfo}>
           <Row>
             <Col lg={12}>
+              <br />
+              <br />
               <br />
               <h1 className={style.sarlavha1}>Fotolavhalar</h1>
               <br />

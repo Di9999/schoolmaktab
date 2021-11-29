@@ -10,6 +10,7 @@
 .cardinfo img {
   height: 380px;
   width: 300px;
+  object-fit: cover;
   border-radius: 50%;
   border: 10px solid orangered;
   transition: 1s;
@@ -35,4 +36,31 @@
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border: 10px solid rgb(29, 35, 70);
+}
+@media (max-width: 600px) {
+  .cardinfo img {
+    border-radius: 7%;
+    transition: 0.2s;
+    height: 330px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cardinfo img {
+    border-radius: 7%;
+    transition: 0s;
+    width: 350px;
+    height: 350px;
+  }
+  .cardinfo {
+    margin-left: 1%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .cardinfo img {
+    width: 350px;
+    height: 350px;
+  }
+  .cardinfo {
+    margin-left: 6%;
+  }
 }

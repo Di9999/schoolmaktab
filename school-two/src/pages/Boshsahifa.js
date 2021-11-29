@@ -19,8 +19,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 import med from "../img/med1.jpg";
 import prosto from "../img/5.jpg";
-import ustoz2 from "../img/ustoz3.jpg";
+import ustoz3 from "../img/ustoz3.jpg";
+import ustoz2 from "../img/ustoz2.jpg";
 import ustoz1 from "../img/ustoz5.jpg";
+import ustoz4 from "../img/ustoz4.jpg";
+import ustoz5 from "../img/ustoz5.jpg";
+import ustoz6 from "../img/ustoz6.jpg";
+import ustoz7 from "../img/ustoz7.jpeg";
+import ustoz8 from "../img/ustoz8.jpg";
 import Darsliklar from "./Darsliklar";
 // import { NavLink } from "react-router-dom";
 import { FaTelegram, FaFacebook } from "react-icons/fa";
@@ -931,7 +937,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.caruselAl2}>
               <div className={style.cardoqituvimg}>
-                <img alt=" " src={ustoz1} />
+                <img alt=" " src={ustoz2} />
               </div>
               <div className={style.cardoqituvtxt}>
                 <h1>Tosheva Gavhar Umarovna</h1>
@@ -940,7 +946,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.caruselAl2}>
               <div className={style.cardoqituvimg}>
-                <img alt=" " src={ustoz1} />
+                <img alt=" " src={ustoz3} />
               </div>
               <div className={style.cardoqituvtxt}>
                 <h1>Azizova Dilobar Karimovna</h1>
@@ -949,7 +955,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.caruselAl2}>
               <div className={style.cardoqituvimg}>
-                <img alt=" " src={ustoz1} />
+                <img alt=" " src={ustoz4} />
               </div>
               <div className={style.cardoqituvtxt}>
                 <h1>Karimova Zilola Akromovna</h1>
@@ -958,7 +964,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.caruselAl2}>
               <div className={style.cardoqituvimg}>
-                <img alt=" " src={ustoz2} />
+                <img alt=" " src={ustoz5} />
               </div>
               <div className={style.cardoqituvtxt}>
                 <h1>Ravshanova Mamlakat Sulaymonovna</h1>
@@ -967,7 +973,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.caruselAl2}>
               <div className={style.cardoqituvimg}>
-                <img alt=" " src={ustoz2} />
+                <img alt=" " src={ustoz4} />
               </div>
               <div className={style.cardoqituvtxt}>
                 <h1>Boltayeva Nargiza Davronovna</h1>
@@ -985,7 +991,7 @@ export default class Boshsahifa extends Component {
             </div>
             <div className={style.caruselAl2}>
               <div className={style.cardoqituvimg}>
-                <img alt=" " src={ustoz2} />
+                <img alt=" " src={ustoz3} />
               </div>
               <div className={style.cardoqituvtxt}>
                 <h1>Tursunova Manzura Dilmurodovna</h1>
