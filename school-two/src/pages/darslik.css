@@ -198,7 +198,7 @@ details[open] > summary {
   .cart {
     width: 100%;
     display: block;
-    margin: 20px;
+    margin-left: 0%;
     padding: 20px;
   }
   .kitob {
@@ -209,5 +209,10 @@ details[open] > summary {
   .sharh {
     display: block;
     width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .cart {
+    margin-left: 0%;
   }
 }
