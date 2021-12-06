@@ -547,7 +547,7 @@ export default class Boshsahifa extends Component {
                 <pr>Email adresi</pr>
               </p>
               <p>
-                <BsTelephoneFill className={style.relations} />
+                <BsTelephoneFill className={style.relations} id="telefonchik" />
                 <pr>Telefon raqami</pr>
               </p>
             </Col>

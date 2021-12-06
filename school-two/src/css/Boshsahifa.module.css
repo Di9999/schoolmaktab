@@ -317,7 +317,7 @@ body {
   font-size: 20px;
 }
 .telegram {
-  width: 70%;
+  width: 100%;
   margin-left: 15%;
 }
 .telegram pr {
@@ -386,6 +386,9 @@ body {
   font-size: 30px;
   text-align: center;
   margin: 20px;
+}
+#telefonchik {
+  margin-left: 10%;
 }
 
 @media (max-width: 1440px) {
@@ -714,10 +717,14 @@ body {
     width: 75%;
     margin-left: 5%;
   }
+  .oyna {
+    margin-left: 0%;
+  }
 }
+/* @media  (min-width:601px and max-width: 991px){ */
 
 /* (min-width:601px and max-width: 991px) */
-@media screen and( max-width: 991px) {
+@media (max-width: 992px) and (min-width: 601px) {
   .qabultext {
     width: 100%;
     /* height: 700px; */
@@ -795,9 +802,7 @@ body {
     margin-left: 15%;
   }
   .foto {
-    margin: 5%;
-  }
-  .foto .cardhayot {
+    width: 90%;
     margin-left: 2%;
   }
   .fotobutton button {
@@ -865,7 +870,7 @@ body {
     margin-top: 5%;
   }
   .avtobus {
-    width: 80%;
+    width: 100%;
     display: flex;
     margin-left: 0%;
   }
@@ -874,15 +879,18 @@ body {
     width: 100%;
     height: auto;
     margin-top: -10%;
+    margin-left: 10%;
   }
   .avtobusimg img {
-    width: 150%;
-    height: 465px;
-    object-fit: cover;
+    width: 130%;
+    height: 325px;
   }
   .avtobusimg {
     padding-top: 4%;
     width: 57%;
     height: auto;
+  }
+  .oyna {
+    margin-left: 0%;
   }
 }

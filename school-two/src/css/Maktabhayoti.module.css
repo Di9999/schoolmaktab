@@ -52,10 +52,10 @@
     height: 350px;
   }
   .cardinfo {
-    margin-left: 1%;
+    margin-left: 2%;
   }
 }
-@media screen and (min-width: 901px) {
+/* @media screen and (min-width: 901px) {
   .cardinfo img {
     width: 350px;
     height: 350px;
@@ -63,4 +63,4 @@
   .cardinfo {
     margin-left: 6%;
   }
-}
+} */
